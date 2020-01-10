@@ -1,0 +1,9 @@
+AuthUserFile /data/local/website/zamir/.htpasswd
+
+AuthName "update tomato mutant database"
+AuthType Basic
+
+<Limit GET POST>
+require valid-user
+</Limit>
+

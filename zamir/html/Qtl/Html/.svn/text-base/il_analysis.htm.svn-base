@@ -1,0 +1,240 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>IL</title>
+
+<script language="javascript" SRC = "functions.js">
+<!--// 
+	document.write("can not find functions");
+//-->
+</script>
+
+<script language="JavaScript">
+<!-- Hide from old browsers
+//Hide from Java Script
+
+
+var page_type;
+var trait;
+var experiment;
+var il;
+var ex;
+var tr;
+var ch;
+var ex_array;
+
+array = get_param(location, 4);
+
+page_type = array[0];
+tr  = array[1];
+ex = array[2];
+ch = array[3];
+il = array[4];
+trait = translate(tr);
+experiment  = translate(ex);
+
+
+function set_radio(t)
+{
+	var type = t;
+			
+	if (type == 1)
+	{
+		document.form1.r2.checked = false;
+	}
+	if (type == 2)
+	{
+		document.form1.r1.checked = false;
+	}
+	
+} 
+
+
+function goToPage(t)
+{
+ var type = t;
+ var index;
+ 
+ switch(type)
+ {
+ 	 case 1:			 
+ 	   if (document.form1.r1.checked == true)
+		 {			
+			 var experiments_array = get_ex_by_tr(tr, 1);
+			
+			 if (experiments_array.length > 1)
+				 	window.open("trait_per_experiments.htm?page_type=1&tr="+tr+"&ex="+ex+"&ch="+ch+"&il="+il);
+			 else
+					window.open("error_page.htm?page_type=2&tr=" + tr + "&ex=" + ex+"&ch="+ch+"&il="+il);		
+		  }
+		  else
+		  {			
+			  if (!check_il(ex, il))
+			  {
+			    window.open("error_page.htm?page_type=1&tr=" + tr + "&ex=" + ex+"&ch="+ch+"&il="+il);
+			    return;
+			  }
+			
+			  window.open("experiment_per_trait.htm?page_type=1&tr="+tr+"&ex="+ex+"&ch="+ch+"&il="+il);
+		   }
+			 break;
+			 
+			 case 2:
+			  		
+			 			index  = document.form1.select_ils.selectedIndex;
+						var new_il = document.form1.select_ils.options[index].value;
+						if (!new_il)
+						{
+						   alert("you must select il");
+						   return;
+						}
+						var arr     = /IL(\d+)/g.exec(new_il);
+			 			location = "il_analysis.htm?page_type=1&tr="+tr+"&ex="+ex+"&ch="+arr[1]+"&il="+new_il;
+			 			break;
+			 
+  }//switch
+}
+
+
+function goToPage_1(t)
+{
+   var type = t;
+	 
+	 switch (type)
+	 {
+	 	  case 0:
+					 
+					 history.go(-1);
+	 				 break;
+			case 1:
+					 location = "ch_all_lines_1.htm?page_type=" + page_type + "&tr="+tr+"&ex="+ex+"&ch="+ch;					 
+	 				 break;		 
+			case 2:
+					 location = "qtl_map.htm?page_type=" + page_type + "&tr="+tr+"&ex="+ex;
+	 				 break;		
+			case 3:
+					 location = "tail_chart.htm?page_type=" + page_type + "&tr="+tr+"&ex="+ex;
+	 				 break;		
+			case 4:
+					 location = "distribution.htm?page_type=" + page_type + "&tr="+tr+"&ex="+ex;
+	 				 break;	
+			case 5:
+					 location = "home.htm";
+	 				 break;			 			 		  
+	 
+	 }
+
+}
+
+
+//-->
+</script>
+
+
+
+</head>
+<body bgColor="#ffffcc">
+
+
+<font color="#a52a2a" size="6"><b><center><script type="text/javascript">
+<!--
+var file = "../Trait_card/" + f_translate_tr(trait) + ".htm";
+
+document.write("<a href="+file+" target='_blanc'><font color='#0000ff' size='6'>"+trait+"</font></a>");
+document.write(" for ");
+document.write("<A HREF='http://zamir.sgn.cornell.edu/cgi-bin/IL_cards/qtl.cgi?menu=il_card&il="+il+"'target='_blanc'><font COLOR='#0000FF' SIZE='6'>" + il + "</font><\/A>");
+document.write(" in ");
+document.write("<a href='../experiment_card.htm?page_type=1&experiment="+ex+"' target='_blanc'><font color='#0000ff'>"+experiment+"</font></a>");
+// -->
+</script></center></b></font>
+<br><br>
+
+<center><table>
+
+
+<form name="form1" method="post" action="" enctype="text/plain">
+<tr>
+
+<script language="javascript">
+<!--// 
+	document.write("<td bgColor='" + get_color() + "'valign='top'>");
+//-->
+</script>
+
+<font color="#0000ff" size="6"><b>choose one of these options :   </b></font><br><br>
+
+
+<input type="radio" name="r1" value="" onClick="set_radio(1)" checked> 
+<font COLOR="#0000FF" SIZE="3"><b>View 
+<font COLOR="#800040" SIZE="3"><script language="javascript">
+<!--// 
+document.write(" "+trait);
+//-->
+</script></font>
+in all the experiments </b></font><br>
+
+
+<input type="radio" name="r2" value="" onClick="set_radio(2)"> 
+<b><font COLOR="#0000FF" SIZE="3">View all traits in 
+<font COLOR="#800040" SIZE="3"><script language="javascript">
+<!--//
+if (experiment.search("Combined") != -1)
+	 document.write("Global ");
+else
+	 document.write(experiment ); 
+//-->
+</script></font> experiment </font></b>
+<br><BR>
+<input type="button" value="Go" onClick="goToPage(1)"/>
+<hr>
+<font color="#0000ff" size="6"><b>Select other IL :   </b></font><br><br>
+<script type="text/javascript">
+<!--
+document.write(select_ils());
+// -->
+</script>
+<input type="button" value="Go" onClick="goToPage(2)"/>
+<br><br><hr>
+
+<font color="#0000ff" size="6"><b>Go to :   </b></font><br><br>
+<script type="text/javascript">
+<!--
+
+document.write("<input type='button' value='Previous page'  onClick='goToPage_1(0);'>");
+if (experiment.search("Global") == -1)
+{
+ 	 document.write("<input type='button' value='Chromosome' onClick='goToPage_1(1);'>");
+	 document.write("<input type='button' value='QTL map' onClick='goToPage_1(2);'>");
+	 document.write("<input type='button' value='Tail chart' onClick='goToPage_1(3);'>");
+	 document.write("<input type='button' value='Distribution' onClick='goToPage_1(4);'>");
+
+}	 
+document.write("<input type='button' value='Front page' onClick='goToPage_1(5);'>");
+
+// -->
+</script>
+</td>
+
+<td>
+<script language="javascript">
+<!--// 
+	var f_ex = f_translate_ex(experiment);
+	var f_tr  = f_translate_tr(trait);
+	var path = "http://zamir.sgn.cornell.edu/IL_cards_images/Chart/" + il + "_chart.jpeg";
+	
+	//document.write("path is " + path);
+	
+	document.write("<img src='" + path +  "'width='350' height='450'  border='0'>");
+	document.write("<BR><center><a href='http://www.sgn.cornell.edu/maps/pennellii_il/chr"+ch+".html' target='_blanc' ><b>SGN : Chromosome "+ch+"</b></a></center>");
+
+
+//-->
+</script>
+<td>
+
+</tr>
+</form></table></center>
+
+</body>
+</html>

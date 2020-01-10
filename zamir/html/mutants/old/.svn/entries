@@ -1,0 +1,110 @@
+9
+
+dir
+13859
+svn+ssh://svn.sgn.cornell.edu/data/svn/cxgn/branches/apache2-rob/mantle/zamir/html/mutants/old
+svn+ssh://svn.sgn.cornell.edu/data/svn/cxgn
+
+
+
+2005-09-13T18:09:23.150798Z
+1979
+rob
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b4ddb4e3-33f1-0310-aa89-e703427ae9b8
+
+graphics
+dir
+
+mutagen
+dir
+
+ABload.jpg
+file
+
+
+
+
+2009-03-19T15:21:21.000000Z
+005d7c238685226b77418f0e2b3c85b6
+2005-09-13T18:09:23.150798Z
+1979
+rob
+has-props
+
+abstract.html
+file
+
+
+
+
+2009-03-19T15:21:21.000000Z
+b16490f7aa4b29d47ca2fd51e1d2427b
+2005-09-13T18:09:23.150798Z
+1979
+rob
+
+mutants_web
+dir
+
+old_home.html
+file
+
+
+
+
+2009-03-19T15:21:21.000000Z
+b5a64939ba7f0c8339ed168e59b4c1cb
+2005-09-13T18:09:23.150798Z
+1979
+rob
+
+.htaccess
+file
+
+
+
+
+2009-03-19T15:21:21.000000Z
+8a38a2eec7501bf5d52176ae7703a7f3
+2005-09-13T18:09:23.150798Z
+1979
+rob
+
+help.html
+file
+
+
+
+
+2009-03-19T15:21:21.000000Z
+6f49ac681cc19476e20ed49b54f00761
+2005-09-13T18:09:23.150798Z
+1979
+rob
+
+home.html
+file
+
+
+
+
+2009-03-19T15:21:21.000000Z
+b45814a1076bd0728266af5971eb4322
+2005-09-13T18:09:23.150798Z
+1979
+rob
+

@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Abstract</title>
+</head>
+
+<body BACKGROUND="dnaBG.jpg">
+<FONT COLOR="#000000" SIZE="4">
+<STRONG><U><FONT COLOR=#000099>The genes that make tomato</FONT></STRONG></U><br><br>
+Mutants offer the most direct way to associate a gene and its phenotype.<BR>
+We are developing a <a href= "protocols/seeds.html">germplasm resource</a> and a <a href= "protocols/screen.html#catalog">
+phenotypic catalog</a> of <a href= "protocols/mutagen/ems.html">EMS</a> and
+<a href= "protocols/mutagen/fn.html">fast neutron</a> mutants<BR>
+in the genetic background of the variety <a href= "population/m82.html">M82</a>.
+<br><br>
+<FONT COLOR="#000000" SIZE="4">
+<STRONG><U><FONT COLOR=#000099>Search collection</FONT></STRONG></U><br><br>
+M2 generation seed were collected from single M1 plants, for constructing
+a <A HREF="population/family.html">family design,<br>
+</A> and in a <A HREF="population/bulk.html">bulk,</A> for keeping a mutant seed stock available for large scale screening.<BR>
+In the summers of 2001 and 2002 about 5000 M2 generation EMS families  and 4000 Fast-neutron families
+(12 plants each) were planted in a commercial field and <A HREF="protocols/screen.html">screened</A> for phenotypic mutations.<BR>
+Each mutant was characterized according to a <a href ="protocols/screen.html#catalog">phenotypic catalog</a>.<BR>
+<BR><br>
+The collection of 3000 monogenic mutants is amenable for
+<A HREF="/cgi-bin/mutation_site/mutant02_search.cgi">searching</A>
+according to a detailed phenotypic catalog and combinations of traits.<br>
+Click <a href= "help.html">here </a>for help on using the mutant search engine.<br>
+<br>
+If you are interested in obtaining seed please <a href="MAILTO:shaham@agri.huji.ac.il?SUBJECT=mutants">
+email</a> a list of mutant codes
+<BR><BR>
+
+<HR>
+
+
+
+</FONT>
+
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+9
+
+dir
+13859
+svn+ssh://svn.sgn.cornell.edu/data/svn/cxgn/branches/apache2-rob/mantle/zamir/html/mutants
+svn+ssh://svn.sgn.cornell.edu/data/svn/cxgn
+
+
+
+2007-06-18T15:12:57.070404Z
+9619
+naama
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b4ddb4e3-33f1-0310-aa89-e703427ae9b8
+
+counter
+dir
+
+menu.js
+file
+
+
+
+
+2009-03-19T15:21:21.000000Z
+29607e337b1702c128dfbb8e3ab5794e
+2005-10-06T19:15:00.221150Z
+2084
+naama
+
+links
+dir
+
+sgn_id.jpg
+file
+
+
+
+
+2009-03-19T15:21:21.000000Z
+86757e4327ddc612dd90a14859f5e9f6
+2005-09-13T18:09:23.150798Z
+1979
+rob
+has-props
+
+2002
+dir
+
+2003
+dir
+
+2004
+dir
+
+mailbox.gif
+file
+
+
+
+
+2009-03-19T15:21:21.000000Z
+3cbdaa8efb8462c695da01da25cc0b80
+2005-09-13T18:09:23.150798Z
+1979
+rob
+has-props
+
+graphics
+dir
+
+agribut.gif
+file
+
+
+
+
+2009-03-19T15:21:21.000000Z
+3d8e386effc89cc4fa0a7baa051e0b14
+2005-09-13T18:09:23.150798Z
+1979
+rob
+has-props
+
+leafMutants.jpg
+file
+
+
+
+
+2009-03-19T15:21:21.000000Z
+9bfac1dea7f401e3b379dab33f535bb4
+2005-09-13T18:09:23.150798Z
+1979
+rob
+has-props
+
+search_template.html
+file
+
+
+
+
+2009-03-19T15:21:21.000000Z
+6c2236ff97dd11f9c1ed63708d5e7d8d
+2005-09-13T18:09:23.150798Z
+1979
+rob
+
+images
+dir
+
+index.html
+file
+
+
+
+
+2009-03-19T15:21:21.000000Z
+5e46a79a13e58c78cce5a602f10367a9
+2007-06-18T15:12:57.070404Z
+9619
+naama
+
+bard.gif
+file
+
+
+
+
+2009-03-19T15:21:21.000000Z
+5727812f9dd821572f0833cfb802a5cf
+2005-09-13T18:09:23.150798Z
+1979
+rob
+has-props
+
+old
+dir
+

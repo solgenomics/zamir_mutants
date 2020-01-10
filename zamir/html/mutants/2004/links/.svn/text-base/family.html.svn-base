@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+
+<html>
+<head>
+	<title>Family design</title>
+</head>
+
+<BODY  bgcolor="#CCFFFF" TEXT="#6633CC" LINK="#0000FF" VLINK="#9900FF" ALINK="#009933">
+<BR>
+<TABLE width=100% CELLSPACING="50" cellpading="10" BORDER="0">
+<TR>
+	<TD valign="top"><script type="text/javascript" src="../menu.js"></script></TD>
+	<TD><h1>Constructing a family design for mutant screening</h1>
+	<IMG SRC="../graphics/tito.gif" WIDTH="77" HEIGHT="66" ALT="" BORDER="0" align="right">
+	<BR clear=all>
+	<HR>
+	<h4>
+	Click on "M1 plants" to see the M1-generation field<br>
+	Click on "M2 plants" to see the M2-generation field<br>
+	</h4> 
+	<IMG SRC="../images/family.jpg" WIDTH=720 HEIGHT=540 BORDER=0 USEMAP="#family_Map">
+	<MAP NAME="family_Map">
+	<AREA SHAPE="rect" ALT="click here to view M2 families" COORDS="210,414,319,446" 			HREF="m2gen.html">
+	<AREA SHAPE="rect" ALT="click here to view M1 field" COORDS="292,154,449,203" HREF="m1gen.html">
+	</MAP>
+	</TD>
+</TR>
+<TABLE>
+
+</body>
+</html>

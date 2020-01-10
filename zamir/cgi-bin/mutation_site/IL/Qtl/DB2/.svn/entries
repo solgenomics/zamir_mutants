@@ -1,0 +1,52 @@
+9
+
+dir
+13859
+svn+ssh://svn.sgn.cornell.edu/data/svn/cxgn/branches/apache2-rob/mantle/zamir/cgi-bin/mutation_site/IL/Qtl/DB2
+svn+ssh://svn.sgn.cornell.edu/data/svn/cxgn
+
+
+
+2005-09-13T18:09:23.150798Z
+1979
+rob
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b4ddb4e3-33f1-0310-aa89-e703427ae9b8
+
+insert.ddl
+file
+
+
+
+
+2009-03-19T15:21:23.000000Z
+4a3eed2de68d23d96c15f19704dd7010
+2005-09-13T18:09:23.150798Z
+1979
+rob
+
+create_table.ddl
+file
+
+
+
+
+2009-03-19T15:21:23.000000Z
+776cd777d7a1663a752041b88977d9fb
+2005-09-13T18:09:23.150798Z
+1979
+rob
+

@@ -1,0 +1,210 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>Experiments</title>
+<script type="text/javascript">
+<!--
+var page_type  = 0;
+var experiment = 0;
+var ex_code   = 0;
+var color = "#b3fdfd";
+
+var array =  /page_type=(\d)/g.exec(location);
+
+if (array && array.length >= 2)
+	 page_type = array[1]; 
+
+array = null;
+array =  /experiment=(.+)/g.exec(location);
+
+if (array && array.length >= 2)
+	 experiment = array[1]; 
+
+if (experiment != 0)
+{
+  if (experiment.search("Combined") != -1)
+	{
+		  location="combined.htm?page_type=1";
+	}
+	if (experiment.search("Global") != -1)
+	{
+		  location="global.htm?page_type=1";
+	}
+ 	if (experiment.search("Akko_-_1993_-_Wet") != -1)
+	{
+			ex_code = "A";
+	}
+	if (experiment.search("Akko_-_2000_-_Dry") != -1)
+	{
+		  ex_code = "C";
+	}
+	if (experiment.search("Akko_-_2000_-_Wet") != -1)
+	{
+		  ex_code = "D";
+	}
+	if (experiment.search("France_-_2000_-_plots_-_Wet") != -1)
+	{
+		  ex_code = "E";
+	}
+	if (experiment.search("Akko_-_2001_-_Wet") != -1)
+	{
+		  ex_code = "H";
+	}
+	if (experiment.search("Akko_-_2002_-_Wet") != -1)
+	{
+		  ex_code = "J";
+	}
+	
+
+}	 
+
+	 
+	 
+// -->
+</script>
+</head>
+<body bgcolor="#fdffbb">
+
+<font color="#000080" size="7"><b><center>Experiments summary</center></b></font>
+<BR>
+<script type="text/javascript">
+
+function goToPage()
+{ 		
+	location = "Html/home.htm";				
+}			
+
+<!--
+
+if (page_type == 0)
+	 document.write("<pre><input type='button' value='Back to front page' onClick='goToPage(0)' />    <a href='global.htm?page_type=1' style='color:#000080' target='_blanc' ><font size='5' ><b>Global experiment</b></font></a>    <a href='combined.htm?page_type=1' style='color:#000080' target='_blanc'><font size='5' ><b>Combined experiment</b></font></a></pre>");
+else
+	 document.write("<pre><input type='button' value='Close window' onClick='self.close()' />    <a href='global.htm?page_type=1' style='color:#000080' target='_blanc' ><font size='5' ><b>Global experiment</b></font></a>    <a href='combined.htm?page_type=1' style='color:#000080' target='_blanc'><font size='5' ><b>Combined experiment</b></font></a></pre>");
+
+// -->
+</script>
+
+
+<table border="5" cellpadding="0">
+<tr>
+<td colspan="10" bgcolor="#b3fdfd"><b>Experiments characteristics</b></td> <td  bgcolor="#b3fdfd" colspan="20"><b>Measured phenotypes</b></td>
+</tr>
+
+<tr>
+
+</font><td><font size="5"  color="#a52a2a" ><b>Trial code</b></font></td> <td><font size="5"color="#a52a2a"><b>Year tested</b></font></td>
+<td><font size="5"color="#a52a2a"><b>Person</b></td> <td><font size="5"color="#a52a2a"><b>Location</b></td> <td><font size="5"color="#a52a2a"><b>Irrigation</b></td>
+<td><font size="5"color="#a52a2a"><b>Genotypes tested</b></td> <td><font size="5"color="#a52a2a"><b>Trial mode</b></td> <td><font size="5"color="#a52a2a"><b>Replicates per genotype</b></td>
+<td><font size="5"color="#a52a2a"><b>Replicates per control</b></td> <td><font size="5"color="#a52a2a"><b>Experimental design</b></td>
+<td><font size="5"color="#a52a2a"><b>PW</b></font></td><td><font size="5"color="#a52a2a"><b>FW</b></font></td> <td><font size="5"color="#a52a2a"><b>BX</b></font></td> <td><font size="5"color="#a52a2a"><b>TY</b></font></td> <td><font size="5"color="#a52a2a"><b>BM</b></font></td> <td><font size="5"color="#a52a2a"><b>%RED</b></font></td> <td><font size="5"color="#a52a2a"><b>HI</b></font></td>
+<td><font size="5"color="#a52a2a"><b>BX*Y</b></font></td> <td><font size="5"color="#a52a2a"><b>LEN</b></font></td> <td><font size="5"color="#a52a2a"><b>WID</b></font></td> <td><font size="5"color="#a52a2a"><b>LEN/WID</b></font></td> <td><font size="5"color="#a52a2a"><b>PER</b></font></td> <td><font size="5"color="#a52a2a"><b>SW</b></font></td> <td><font size="5"color="#a52a2a"><b>EC</b></font></td> <td><font size="5"color="#a52a2a"><b>IC</b></font></td> <td><font size="5"color="#a52a2a"><b>L</b></font></td>
+ <td><b><font size="5"color="#a52a2a">A</font></b></td> <td><b><font size="5"color="#a52a2a">B</font></b></td> <td><b><font size="5"color="#a52a2a">CAR</font></b></td> <td><b><font size="5"color="#a52a2a">LYC</font></b></td>
+ 
+</tr>
+<tr>
+<td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><b>Plant Weight (KG)</b></td><td><b>Fruit weight (g)</b></td><td><b>Brix</b></td> <td><b>Total yield (Kg)</b></td> 
+<td><b>Biomass (Kg)</b></td> <td><b>% Red yield</b></td> <td><b>Harvest index</b></td> <td><b>Brix* yield</b></td> <td><b>Fruit length (mm)</b></td> 
+<td><b>Fruit width (mm)</b></td> <td><b>Length/Width</b></td> <td><b>Pericarp thickness (mm)</b></td> <td><b>Seed weight (g/1000 seeds)</b></td> 
+<td><b>External fruit color</b></td> <td><b>Internal fruit color</b></td> <td><b>Lightness</b></td><td><pre> </pre></td><td><pre> </pre></td>
+<td><b>Carotene</b></td> <td><b>Lycopene</b></td>   
+</tr>
+<script type="text/javascript">
+<!--
+if (ex_code != 0  && ex_code.search("A") != -1)
+	 document.write("<tr bgcolor='"+color+"'>");
+else
+	 document.write("<tr>");	 
+// -->
+</script>
+<td><b>A</b></td><td><b>1993</b></td><td><b>Yuval</b></td><td><b>Akko</b></td><td><b>Wet</b></td><td><b>50 ILs + 50 ILHs</b></td><td><b>Single plants</b></td><td><b>6</b></td><td><b>30</b></td> <td><b>CRD</b></td> <td><b>X</b></td> <td><b>X</b></td> <td><b>X</b></td> <td><b>X</b></td> <td><b>X</b></td> <td><b>X</b></td> <td><b>X</b></td>
+<td><b>X</b></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td>
+</tr>
+<tr>
+</script>
+<td><b>B</b></td><td><b>2000</b></td><td><b>Dani</b></td><td><b>Rehovot</b></td><td><b>Wet</b></td><td><b>75 ILs</b></td><td><b>Single plants</b></td><td><b>6</b></td><td><b>18</b></td> <td><b>RBD</b></td> <td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td>
+<td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><pre> </pre></td><td><pre> </pre></td> <td><pre> </pre></td>
+<td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td>  
+</tr>
+<script type="text/javascript">
+<!--
+if (ex_code != 0  && ex_code.search("C") != -1)
+	 document.write("<tr bgcolor='"+color+"'>");
+else
+	 document.write("<tr>");	 
+// -->
+</script>
+<td><b>C</b></td><td><b>2000</b></td><td><b>Amit</b></td><td><b>Akko</b></td><td><b>Dry</b></td><td><b>75 ILs + 75 ILHs</b></td><td><b>Single plants</b></td><td><b>7</b></td><td><b>100</b></td> <td><b>RBD</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td>
+<td><pre> </pre></td><td><b>X</b></td><td><b>X</b></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td>
+</tr>
+<script type="text/javascript">
+<!--
+if (ex_code != 0  && ex_code.search("D") != -1)
+	 document.write("<tr bgcolor='"+color+"'>");
+else
+	 document.write("<tr>");	 
+// -->
+</script>
+<td><b>D</b></td><td><b>2000</b></td><td><b>Amit</b></td><td><b>Akko</b></td><td><b>Wet</b></td><td><b>75 ILs + 75 ILHs</b></td><td><b>Single plants</b></td><td><b>7</b></td><td><b>100</b></td> <td><b>RBD</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td>
+<td><pre> </pre></td><td><b>X</b></td><td><b>X</b></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td>
+</tr>
+<script type="text/javascript">
+<!--
+if (ex_code != 0  && ex_code.search("E") != -1)
+	 document.write("<tr bgcolor='"+color+"'>");
+else
+	 document.write("<tr>");	 
+// -->
+</script>
+<td><b>E</b></td><td><b>2000</b></td><td><b>Mathilde</b></td><td><b>France</b></td><td><b>Wet</b></td><td><b>75 ILs</b></td><td><b>plots</b></td><td><b>6</b></td><td><b>24</b></td> <td><b>RBD</b></td> <td><pre> </pre></td> <td><b>X</b></td> <td><b>X</b></td> <td><pre> </pre></td> <td><pre> </pre></td>
+<td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td> <td><pre> </pre></td>
+<td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td>  
+</tr>
+<tr>
+<td><b>F</b></td><td><b>2001</b></td><td><b>Amit</b></td><td><b>Akko</b></td><td><b>Dry</b></td><td><b>30 ILs + 30 ILHs</b></td><td><b>Single plants</b></td><td><b>10</b></td><td><b>45</b></td>  <td><b>RBD</b></td><td><b>X</b></td><td><b>X</b></td> <td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td>
+<td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td>
+<td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td>  
+</tr>
+<tr>
+<td><b>G</b></td><td><b>2001</b></td><td><b>Amit</b></td><td><b>Akko</b></td><td><b>Wet</b></td><td><b>30 ILs + 30 ILHs</b></td><td><b>Single plants</b></td><td><b>10</b></td><td><b>45</b></td> <td><b>RBD</b></td> <td><b>X</b></td><td><b>X</b></td> <td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td>
+<td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td>
+<td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td>  
+</tr>
+<script type="text/javascript">
+<!--
+if (ex_code != 0  && ex_code.search("H") != -1)
+	 document.write("<tr bgcolor='"+color+"'>");
+else
+	 document.write("<tr>");	 
+// -->
+</script>
+<td><b>H</b></td><td><b>2001</b></td><td><b>Amit</b></td><td><b>Akko</b></td><td><b>Wet</b></td><td><b>75 ILs</b></td><td><b>Single plants</b></td><td><b>7</b></td><td><b>26</b></td> <td><b>RBD</b></td> <td><pre> </pre></td> <td><b>X</b></td> <td><b>X</b></td> <td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td>
+<td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td>
+</tr>
+<tr>
+<td><b>I</b></td><td><b>2001</b></td><td><b>Amit</b></td><td><b>Akko</b></td><td><b>Dry</b></td><td><b>30 ILs + 30 ILHs</b></td><td><b>Plots</b></td><td><b>10</b></td><td><b>36</b></td><td><b>RBD</b></td> <td><b>X</b></td> <td><b>X</b></td> <td><b>X</b></td> <td><b>X</b></td> <td><b>X</b></td> <td><b>X</b></td> <td><b>X</b></td>
+<td><b>X</b></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td>
+</tr>
+<script type="text/javascript">
+<!--
+if (ex_code != 0  && ex_code.search("J") != -1)
+	 document.write("<tr bgcolor='"+color+"'>");
+else
+	 document.write("<tr>");	 
+// -->
+</script>
+<td><b>J</b></td><td><b>2002</b></td><td><b>Amit</b></td><td><b>Akko</b></td><td><b>Wet</b></td><td><b>75 ILs</b></td><td><b>Single plants</b></td><td><b>7</b></td><td><b>37</b></td><td><b>RBD</b></td> <td><pre> </pre></td> <td><b>X</b></td> <td><b>X</b></td> <td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td> <td><pre> </pre></td>
+<td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><b>X</b></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td><td><pre> </pre></td>
+</tr>
+</table><br>
+
+<b><font color="#0000ff">Single plants</font>- measurments were taken on single plants that were planted in a density of 1 m2 per plant   <br>
+<font color="#0000ff">Plots</font>-measurments were taken on a plot of 4 m2 that contained 14 plants (3.5 plants per m2)  <br>
+<font color="#0000ff">Dry</font> - non-irrigated trial. Plants were irrigated only at transplanting with 30 m3 per dunam  <br>
+<font color="#0000ff">Wet</font>- irrigated trial. Plants were well irrigated along the season with 300 m3 per dunam  <br>
+<font color="#0000ff">CRD</font>- complete randomized design  <br>
+<font color="#0000ff">RBD</font>- randomized block design </b>
+
+
+</body>
+</html>

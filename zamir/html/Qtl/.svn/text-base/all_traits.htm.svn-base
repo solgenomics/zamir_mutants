@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>Phenotypes</title>
+
+<script type="text/javascript">
+<!--
+var page_type  = 0;
+
+
+var array =  /page_type=(\d)/g.exec(location);
+
+if (array && array.length >= 2)
+	 page_type = array[1]; 
+	 
+	 
+function goToPage()
+{
+ location = "Html/home.htm";
+}	 
+
+// -->
+</script>
+
+</head>
+<body bgcolor="#fdffbb">
+
+<B>
+<font color="#000080" size="6"><center>All phenotypes that were measured over the different experiments</center></font>
+<br><br>
+
+
+
+<script type="text/javascript">
+<!--
+if (page_type == 0)
+	 document.write("<input type='button' value='Back to front page' onClick='goToPage()'/>");
+else
+	 document.write("<input type='button' value='Close window' onClick='self.close()'/>");	 
+
+// -->
+</script>
+
+<br><br>
+<font color="#a52a2a" size="5">Yield related traits :</font>
+<br><br>
+ 
+
+<font size="4"><a href="Trait_card/PW.htm" target="_blanc"><font color="#0000ff">PW - Plant weight</font></a> : fresh weight of plant canopy. Presented as Kg per M<sup>2</sup>.</font><br>
+<font size="4"><a href="Trait_card/TY.htm" target="_blanc"><font color="#0000ff">TY - Total yield</font></a> : total fruit yield  measured for each plant or plot. Presented as Kg per M<sup>2</sup>.</font><br>
+<font size="4"><a href="Trait_card/BM.htm" target="_blanc"><font color="#0000ff">BM - Biomass </font></a> : total biomass. Calculated as TY+PW. Presented as Kg per M<sup>2</sup>.</font><br>
+<font size="4"><a href="Trait_card/BX.htm" target="_blanc"><font color="#0000ff">BX - Brix </font></a>: total soluble solids (TSS). Measured on sample from 10 fruits per plant/plot. Presented as precentage.</font><br>
+<font size="4"><a href="Trait_card/BXY.htm" target="_blanc"><font color="#0000ff">BX*Y - Brix * total yield </font></a>: presented per M<sup>2</sup>. To obtain the value in g/M<sup>2</sup> multiply by ten.</font><br>
+<font size="4"><a href="Trait_card/HI.htm" target="_blanc"><font color="#0000ff">HI - Harvest index </font></a> : calculated  as TY/(TY+PW).</font><br>
+<font size="4"><a href="Trait_card/RED.htm" target="_blanc"><font color="#0000ff">%RED - Percent red yield </font></a> : calculated as the percent of red fruit yield from total fruit yield (red & green).</font><br>
+<br><br>
+
+<font color="#a52a2a" size="5">Fruit morphology :</font>
+<br><br>
+
+ 
+<font size="4"><a href="Trait_card/FW.htm" target="_blanc"><font color="#0000ff">FW - Fruit weight</font></a> : average fruit weight as measured from a random sample of 20 fruits per plant (or plot). Presented as g per fruit.</font><br>
+<font size="4"><a href="Trait_card/LEN.htm" target="_blanc"><font color="#0000ff">FR LENGTH - Average fruit length</font></a> : measured  on three fruits per plant. Presented in mm, except for data from 2000-faculty, where  measurements were taken on fruit scans and units are arbitrary.</font><br>
+<font size="4"><a href="Trait_card/WID.htm" target="_blanc"><font color="#0000ff">FR WIDTH - Average fruit width</font></a> : measured  on three fruits per plant. Presented in mm, except for data from 2000-faculty, where  measurements were taken on fruit scans and units are arbitrary.</font><br>
+<font size="4"><a href="Trait_card/LEN_WID.htm" target="_blanc"><font color="#0000ff">LENGTH/WIDTH - Fruit length divided by fruit width</font></a><br>
+<font size="4"><a href="Trait_card/PER.htm" target="_blanc"><font color="#0000ff">PERICARP - Pericarp thickness</font></a> : measured  on three fruits per plant. Measurement was taken at the widest spot on one locule per fruit. Presented in mm, except for data from 2000-faculty, where  measurements were taken on fruit scans and units are arbitrary.</font><br>
+<font size="4"><a href="Trait_card/SW.htm" target="_blanc"><font color="#0000ff">SEED W - Seed weight</font></a> : average  seed weight  from a 50 seeds sample, that were extracted from five fruits of a single plant. Presented as weight (g) of 1000 seeds.</font><br>
+<font size="4"><a href="Trait_card/IC.htm" target="_blanc"><font color="#0000ff">IC - Internal fruit color</font></a> : measured as subjective ratings  for the intensity of the color. Range is from 1 to 5 where  1 is light color  and 5 is dark.</font><br>
+<font size="4"><a href="Trait_card/EC.htm" target="_blanc"><font color="#0000ff">EC - External fruit color</font></a> : measured as subjective ratings  for the intensity of the color. Range is from 1 to 5 where  1 is light color  and 5 is dark.</font><br>
+<font size="4"><a href="Trait_card/L.htm" target="_blanc"><font color="#0000ff">L - L*</font></a> : lightness.<br>
+<font size="4"><a href="Trait_card/A.htm" target="_blanc"><font color="#0000ff">A - A*</font></a> : Chromaticity coordinates. green-to-red scale.</font><br>
+<font size="4"><a href="Trait_card/B.htm" target="_blanc"><font color="#0000ff">B - B*</font></a> : Chromaticity coordinates. blue-to-yellow scale.</font><br>
+ 
+<br><br>
+ 
+<font color="#a52a2a" size="5">fruit biochemistry :</font>
+<br><br>
+
+ 
+<font size="4"><a href="Trait_card/CAR.htm" target="_blanc"><font color="#0000ff">CARO - Carotene content in the fruit</font></a> : units are <var>u</var>g/g fruit.</font><br>
+<font size="4"><a href="Trait_card/LYC.htm" target="_blanc"><font color="#0000ff">LYCO - Lycopene content in the fruit</font></a> : units are <var>u</var>g/g fruit.</font><br>
+
+
+
+
+</body>
+</html>

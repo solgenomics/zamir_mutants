@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>Untitled</title>
+</head>
+<body  bgcolor="#fcf98f">
+<center><b><font color="#031cc7" size="7"><i>Lycopersicon pennellii</i> <a href="http://tgrc.ucdavis.edu/L.pen.html">- LA716</a></font></b>
+<BR><BR> 
+ 
+ 
+ 
+<a href="leaf_shape.jpg" TARGET=\"_blanc\"><img  width="200" height="200" src="leaf_shape.jpg"></a>
+<a href="pennellii.jpg" TARGET=\"_blanc\"><img  width="200" height="200" src="pennellii.jpg"></a>
+<a href="pennellii-leaves.jpg" TARGET=\"_blanc\"><img  width="200" height="200" src="pennellii-leaves.jpg"></a>
+<BR>
+<a href="pennellii-stigma.jpg" TARGET=\"_blanc\"><img  width="200" height="200" src="pennellii-stigma.jpg"></a>
+<a href="seed_weight.jpg" TARGET=\"_blanc\"><img  width="200" height="200" src="seed_weight.jpg"></a>
+<a href="fruits.jpg" TARGET=\"_blanc\"><img  width="200" height="200" src="fruits.jpg"></a>
+ 
+ </center>
+ 
+<input type="button" value="back to front page" onClick="location='../Html/home.htm'"/>
+</body>
+</html>

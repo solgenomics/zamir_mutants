@@ -1,0 +1,8 @@
+
+<!--#if expr="$WINDOZE || $IE" -->
+<link rel=stylesheet href=/inc/windoze.css type=text/css>
+<!--#elif expr="$LINUX" -->
+<link rel=stylesheet href=/inc/linux.css type=text/css>
+<!--#else -->
+<link rel=stylesheet href=/inc/default.css type=text/css>
+<!--#endif -->

@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>IL Picture</title>
+<script type="text/javascript">
+<!--
+
+//var PIC_DIR = "C:/Documents and Settings/zamir-bio/My Documents/IL Project/IL_cards/IL/"; 
+//var PIC_DIR = "/data/local/website/zamir/html/IL_cards_images/"; 
+var PIC_DIR = "../IL_cards_images/";
+///////////////////////////////////////////////////////////////////////////////////////
+
+var genotype;
+var pic;
+var array;
+
+array =  /genotype=([^&]*)&pic=(.*)/g.exec(location);
+
+if (array)
+{
+ 	 genotype = array[1];
+	 pic      = array[2];
+	 
+}
+
+// -->
+</script>
+</head>
+<body bgColor="#ffffcc">
+
+
+<ul>
+<script type="text/javascript">
+<!--
+document.write("<li><b><font size='4' color='#031cc7' >"+genotype+"</font></b></li>");
+// -->
+</script>
+
+<li><b><font size="4" color="" >Experiment : Akko 2000 wet</font></b></li>
+
+<script type="text/javascript">
+<!--
+array =  /scan/g.exec(pic);
+var array1 = /leaves/g.exec(pic);
+
+if (array)
+{
+ //document.write("<br>");
+ document.write("<li><b><font size='4' color='' >Scan of fruits taken from 6 different plants (experimental replications). "); 
+ document.write("Each plant is represented in two fruits. One in a transverse section and one in a longitude section.</font></b></li></ul>");
+} 
+
+
+document.write("<br>");
+
+
+
+var path = PIC_DIR + genotype + "/" + pic;
+if (array || array1)
+	 document.write("<img src='"+path +"'" + "width='300' weight='300' />");
+else
+	 document.write("<img src='"+path +"'" + "width='600' weight='600' />");		 
+
+//document.write("path is " + path);
+// -->
+</script>
+
+
+</body>
+</html>

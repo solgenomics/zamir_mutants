@@ -1,0 +1,53 @@
+9
+
+dir
+13859
+svn+ssh://svn.sgn.cornell.edu/data/svn/cxgn/branches/apache2-rob/mantle/zamir
+svn+ssh://svn.sgn.cornell.edu/data/svn/cxgn
+
+
+
+2008-01-24T13:58:36.138843Z
+11082
+naama
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b4ddb4e3-33f1-0310-aa89-e703427ae9b8
+
+html
+dir
+
+logs
+dir
+
+cgi-bin
+dir
+
+perllib
+dir
+
+.htpasswd
+file
+
+
+
+
+2009-03-19T15:21:24.000000Z
+777f9333b5c8b5f8e7f7eda2e1de89d7
+2005-09-13T18:09:23.150798Z
+1979
+rob
+has-props
+

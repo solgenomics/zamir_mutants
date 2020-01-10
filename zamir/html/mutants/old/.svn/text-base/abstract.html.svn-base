@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Abstract</title>
+</head>
+
+<body BACKGROUND="dnaBG.jpg">
+<FONT COLOR="#990033" SIZE="3">
+<STRONG><U><FONT COLOR=#000099>The mutant analysis approach</FONT></STRONG></U><br><br>
+Functional genomics is considered as one of the major challenges of the post genomic era,<BR> 
+during which databases will provide sequences for most, if not all the 20-40,000 plant genes.<BR> 
+Expressed Sequence Tags (ESTs) of a high proportion of these genes are already available<BR> 
+in sequence databases, for Arabidopsis and maize.<BR><BR>
+Nevertheless, the function of only few hundred plant genes has been clearly demonstrated.<BR>
+Mutants offer the most direct way to associate a gene and its function.<BR><BR>
+Years of tomato genetics and breeding facilitated the isolation of approximately 500<BR> 
+monogenic mutations in a variety of genetic backgrounds. Currently missing from the tomato<BR> 
+genomic picture is a large collection of monogenic mutations in a uniform genetic background<BR> 
+that would allow applying the developing genomic technologies for the isolation of gene<BR> 
+sequences responsible for the phenotypes.<BR><BR> 
+<FONT COLOR="#990033" SIZE="3">
+<STRONG><U><FONT COLOR=#000099>Tomato Mutagenesis</FONT></STRONG></U><br><br>
+The objective of this research is to generate a large number of single gene mutations in the<BR> 
+genetic background of the processing tomato variety <A HREF="population/m82.html">M82</A>.<BR> 
+The seeds were treated with two mutagens:<BR><A HREF="protocols/mutagen/fn.html">Fast neutron</A> 
+source that causes deletions of a few kilo bases<BR>  
+and ethyl methane sulphonate <A HREF="protocols/mutagen/ems.html">(EMS)</A> that causes point mutations by inserting or deleting of a single<BR>
+nucleotide (SNP).<BR>
+The M1 generation seeds were sown, M2 seeds were collected from single plants, for constructing<BR>
+a <A HREF="population/family.html">family design,</A> and in a <A HREF="population/bulk.html">bulk,</A> 
+for keeping a mutant seed stock available for large scale screening.<BR>
+In the summer of 2001 about 2000 M2 generation EMS families  and 3500 Fast-neutron families<BR> 
+(12 plants each) were planted in a commercial field and <A HREF="protocols/screen.html">screened</A> for phenotypic mutations.<BR>
+Each mutant was characterized and assigned into a phenotypic group.<BR> 
+Click <A HREF="protocols/screen.html#catalog">here</A> for the phenotypic catalog.<BR>
+Seed collection was performed according to the nature of the mutation/s in each family.<BR>
+Click <A HREF="protocols/seeds.html">here</A> to see how seeds were collected from families segregating for a mutation.<BR>
+<BR>
+In total we've isolated about 1000 EMS  and 500 fast-neutron mutants in the background of M82.<BR>
+You can see photos of represntative mutants in each of the phenotypic categories.<BR>
+<FONT size="+1"><A HREF="http://soldb.cit.cornell.edu/cgi-bin/mutations/mutation_search.pl">A browsable database of all the mutants is available here</A>
+
+<BR><BR>
+
+<HR>
+
+
+
+</FONT>
+
+
+</body>
+</html>

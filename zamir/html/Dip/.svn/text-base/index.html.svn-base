@@ -1,0 +1,728 @@
+<html>
+
+
+
+<head>
+
+
+
+<title>Solanaceae Genomics Network</title>
+
+<!--#include virtual="inc/ssi-css.html" -->
+
+<META name="keywords" content="genomics, genetics, bioinformatics, gene,
+
+genes, genetic map, genetic maps, map, maps, SGN, solanaceae, nightshade,
+
+comparative genomics, microbiology, biology, tomato, potato, eggplant,
+
+petunia, coffee, pepper, BLAST, contig, consensus, unigene, database,
+
+sequence, sequences, DNA, markers, genetic markers, COS, Conservered
+
+Ortholog Set, Arabidopsis, NSF, TIGR, EST, MIPS, gene ontology,
+
+microsatellites, SSR, mapviewer, Isogenic, mutant, microarray, codon,
+
+esculentum, lycopersicon, solanum, pimpinellifolium, pennellii, tuberosum,
+
+hirsutum, melongena, clone, cornell, Tanksley">
+
+<META name="description" content="Genomic information about Solanaceous
+
+species in a comparative format">
+
+
+
+</head>
+
+
+
+<body>
+
+<center>
+
+
+
+<!-- navbar include in -->
+
+<!--#include virtual="inc/home-page-header.html" -->
+
+<!-- navbar include out -->
+
+
+
+
+
+<!-- ********************************** body table in -->
+
+<table width=720 cellpadding=0 cellspacing=0 border=0>
+
+
+
+
+
+
+
+<!-- set column widths in -->
+
+<tr>
+
+<td><img src="/img/dot_clear.gif" alt="" width=220 height=1></td>
+
+<td><img src="/img/dot_clear.gif" alt="" width=10 height=1></td>
+
+<td><img src="/img/dot_clear.gif" alt="" width=1 height=1></td>
+
+<td><img src="/img/dot_clear.gif" alt="" width=10 height=1></td>
+
+<td><img src="/img/dot_clear.gif" alt="" width=220 height=1></td>
+
+<td><img src="/img/dot_clear.gif" alt="" width=10 height=1></td>
+
+<td><img src="/img/dot_clear.gif" alt="" width=1 height=1></td>
+
+<td><img src="/img/dot_clear.gif" alt="" width=10 height=1></td>
+
+<td><img src="/img/dot_clear.gif" alt="" width=220 height=1></td>
+
+</tr><tr>
+
+<!-- set column widths out -->
+
+
+
+
+
+
+
+<tr><td colspan=9><img src="/img/dot_clear.gif" width=1 height=5></td></tr>
+
+<tr><td bgcolor=cccccc colspan=9><img src="/img/dot_clear.gif" width=1 height=2></td></tr>
+
+<tr><td colspan=9><img src="/img/dot_clear.gif" width=1 height=10></td></tr>
+
+
+
+<tr><td colspan=9 align=center>
+
+	<table width=80% cellpadding=0 cellspacing=0 border=0>
+
+	<tr><td bgcolor=#CCCCFF width=5%><img src="/img/dot_clear.gif" alt="" width=1 height=70></td><td width=80% bgcolor=#CCCCFF>
+
+<center>
+
+<B>Solanaceae Meeting Update</B><BR>A summary of the Solanaceae meeting, held Nov 3, 2003, in Dulles, VA, and other documents are available from the <a href=solanaceae-project>Solanaceae Project page</a>.
+
+</td>
+
+	</td><td bgcolor=#CCCCFF width=5%></tr>
+
+	<tr><td colspan=3><br></td></tr>
+
+	</table>
+
+</td></tr>
+
+
+
+<tr>
+
+<td bgcolor=ffffff colspan=9><img src="/img/dot_clear.gif" width=1 height=10></td>
+
+</tr><tr>
+
+
+
+<!-- ************************ left column in -->
+
+<td valign=top>
+
+<font color=0086B3>
+
+<b>SGN Highlights</b>
+
+</font>
+
+
+
+<table width=100% cellpadding=0 cellspacing=2 border=0>
+
+<tr><td><img src="/img/dot_clear.gif" width=1 height=5></td></tr>
+
+<tr><td align=left>
+
+<font color=333333>
+
+
+
+<!-- ============== insert first SGN news item here ============ -->
+
+<b><a href="http://zamir.sgn.cornell.edu/mutants/">Mutants Database
+
+			    Updated</a></b><br>
+
+Now includes 3500 tomato monogenic mutants collected in Summer 2003 
+
+
+
+<!-- ============== end first SGN news item ==================== -->
+
+
+
+
+
+</font>
+
+</td></tr>
+
+
+
+
+
+<tr><td><img src="/img/dot_clear.gif" width=1 height=2></td></tr>
+
+
+
+
+
+<tr><td align=left>
+
+<font color=333333>
+
+
+
+<!-- ============== insert second SGN news item here ============ -->
+
+<b><a
+
+href="/cgi-bin/search/direct_search.pl">Full Text Search</a></b><br>
+
+Keyword search of all unigene annotations, both manual and automated
+
+<!-- ============== end second SGN news item ==================== -->
+
+
+
+
+
+</font>
+
+</td></tr>
+
+
+
+
+
+<tr><td><img src="/img/dot_clear.gif" width=1 height=2></td></tr>
+
+
+
+
+
+<tr><td align=left>
+
+<font color=333333>
+
+
+
+<!-- ============== insert third SGN news item here ============ -->
+
+<b><a
+
+href="/cgi-bin/mapviewer/displayWholeMap.pl?map_id=1&physical=1">BAC
+
+Physical Mapping</a></b><br>
+
+Overgo based BAC anchoring to the F2-2000 tomato genetic map
+
+<!-- ============== end third SGN news item ==================== -->
+
+
+
+</font>
+
+</td></tr>
+
+
+
+
+
+<tr><td><img src="/img/dot_clear.gif" width=1 height=2></td></tr>
+
+
+
+
+
+<tr><td align=left>
+
+<font color=333333>
+
+
+
+<!-- ============== insert fourth SGN news item here ============ -->
+
+<b><a
+
+href="http://zamir.sgn.cornell.edu/Qtl/Html/home.htm">Real Time QTL</a></b><br>
+
+A tool for the analysis of complex phenotypes
+
+<!-- ============== end fourth SGN news item ==================== -->
+
+
+
+</font>
+
+</td></tr>
+
+
+
+</table>
+
+
+
+<!-- ************************ left column out -->
+
+
+
+</td>
+
+<td></td>
+
+<td bgcolor=cccccc><img src="/img/dot_clear.gif" width=1 height=1></td>
+
+<td></td>
+
+
+
+<!-- ************************ center column in -->
+
+<td valign=top align=center>
+
+<font color=#0086B3>
+
+<b>Picture of the Week</b>
+
+</font>
+
+
+
+<table width=100% cellpadding=1 cellspacing=0 border=0>
+
+<tr><td><img src="/img/dot_clear.gif" width=1 height=5></td></tr>
+
+<tr><td align=center valign=center>
+
+
+
+<!-- ********************* image goes here -->
+
+<img width=200 hspace="0" vspace="0" border="0" src="img/feature/n0667m1s.png">
+
+<!-- ************************************* -->
+
+
+
+</td></tr>
+
+<tr><td align=center valign=bottom>
+
+<font color=#333333>
+
+
+
+<!-- ********************* image description goes here -->
+
+Tomato mutant: very inhibited, purple cotyledons
+
+<br>(courtesy of the Zamir Lab)
+
+<!-- ************************************************* -->
+
+
+
+</font>
+
+</td></tr>
+
+</table>
+
+
+
+<!-- ************************ center column out -->
+
+
+
+
+
+
+
+</td>
+
+<td></td>
+
+<td bgcolor=cccccc><img src="/img/dot_clear.gif" width=1 height=1></td>
+
+<td></td>
+
+
+
+
+
+<!-- ************************ right column in -->
+
+<td valign=top align=left>
+
+<font color=0086B3>
+
+<b>Publications of Interest</b>
+
+</font>
+
+
+
+<table width=100% cellpadding=0 cellspacing=2 border=0>
+
+<tr><td><img src="/img/dot_clear.gif" width=1 height=5></td></tr>
+
+<tr><td align=left>
+
+<font color=333333>
+
+
+
+<!-- ############## start first paper reference ############## -->
+
+<b>Construction of two BAC libraries from the wild Mexican diploid potato, Solanum pinnatisectum, and the identification of clones near the late blight and Colorado potato beetle resistance loci.</b></br>
+
+<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=14628112&dopt=Abstract">Chen Q, Sun S, Ye Q, McCuine S, Huff E, Zhang HB.<br><i>Theor Appl Genet.</i> 2003 Nov 20</a>
+
+<!-- ############## end first paper reference ################ -->
+
+
+
+
+
+<!-- ############## previous paper (will go in history file) ##############
+
+<b>SINGLE FLOWER TRUSS regulates the transition and maintenance of flowering in tomato</b></br>
+
+<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=14504922&dopt=Abstract">Molinero-Rosales N, Latorre A, Jamilena M, Lozano R.<br><i>Planta</i> 2003 Sep 23 [Epub ahead of print]</a>
+
+<b>Genetics of drought tolerance during seed germination in tomato: 
+
+inheritance and QTL mapping</b><br>
+
+<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12897861&dopt=Abstract">Foolad MR, Zhang LP, Subbiah P<br><i>Genome</i> 2003 Aug;46(4):536-45</a>
+
+############## end previous first paper reference ################ -->
+
+
+
+
+
+</font>
+
+</td></tr>
+
+
+
+
+
+<tr><td><img src="/img/dot_clear.gif" width=1 height=2></td></tr>
+
+
+
+
+
+<tr><td align=left>
+
+<font color=333333>
+
+<!-- ############## start second paper reference ############## -->
+
+<b>p-Coumaroylnoradrenaline, a novel plant metabolite implicated in tomato defense against pathogens.</b><br>
+
+<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12900412&dopt=Abstract">Von Roepenack-Lahaye E, Newman MA, Schornack S, Hammond-Kosack KE, Lahaye T, Jones JD, Daniels MJ, Dow JM.<br><i>J Biol Chem.</i>2003 Oct 31; 278(44):43373-83.</a>
+
+<!-- ############## end second paper reference ################ -->
+
+
+
+<!-- ############## previous paper (will go into history file) ##############
+
+<b>Linkage disequilibrium mapping of a Verticillium dahliae resistance quantitative trait locus in tetraploid potato ( Solanum tuberosum) through a candidate gene approach</b><br>
+
+<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=14523522&dopt=Abstract>Simko I, Costanzo S, Haynes KG, Christ BJ, Jones RW<br><i>Theor Appl Genet.</i> 2003 Oct 2 [Epub ahead of print]</a>
+
+<b>Loss of a callose synthase results in salicylic acid-dependent disease 
+
+resistance</b><br>
+
+<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12920300&dopt=Abstract">Nishimura MT, Stein M, Hou BH, Vogel JP, Edwards H, Somerville SC<br><i>Science</i> 2003 Aug 15;301(5635):969-72
+
+############## end second previous paper reference ################ -->
+
+
+
+</font>
+
+</td></tr>
+
+
+
+</table>
+
+
+
+<!-- ************************ right column out -->
+
+
+
+</td>
+
+</tr>
+
+
+
+<!-- ********* history links for all 3 columns ********* -->
+
+<tr>
+
+<td valign=bottom align=left>
+
+<!-- nothing yet for SGN Highlights -->
+
+<!--
+
+<a href="">More...</a>
+
+-->
+
+</td>
+
+
+
+<td></td>
+
+<td bgcolor=cccccc><img src="/img/dot_clear.gif" width=1 height=1></td>
+
+<td></td>
+
+
+
+<td valign=bottom align=left>
+
+<!-- nothing yet for Picture of the Week -->
+
+<!--
+
+<a href="">More...</a>
+
+-->
+
+</td>
+
+
+
+<td></td>
+
+<td bgcolor=cccccc><img src="/img/dot_clear.gif" width=1 height=1></td>
+
+<td></td>
+
+
+
+<td valign=bottom align=left>
+
+<!-- nothing yet for Publications of Interest -->
+
+<!--
+
+<a href="">More...</a>
+
+-->
+
+</td>
+
+</tr>
+
+
+
+
+
+<tr><td colspan=9><img src="/img/dot_clear.gif" width=1 height=10></td></tr>
+
+<tr><td bgcolor=cccccc colspan=9><img src="/img/dot_clear.gif" width=1 height=1></td></tr>
+
+
+
+<tr><td colspan=9><img src="/img/dot_clear.gif" width=1 height=10></td></tr>
+
+<tr><td colspan=9>
+
+
+
+
+
+<table width=100% cellpadding=0 cellspacing=0 border=0>
+
+<tr>
+
+<td align=left>
+
+<font color=0086B3>
+
+<b>Community Information</b>
+
+</font>
+
+</td>
+
+<td align=center>
+
+<font color=0086B3>
+
+<b>Community Highlights</b>
+
+</font>
+
+</td></tr>
+
+<tr><td colspan=2><img src="/img/dot_clear.gif" width=1 height=5></td></tr>
+
+<tr><td align=left>
+
+<font color=#333333>
+
+&nbsp;&nbsp;<i>Interact with SGN:</i><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Subscribe to the <a href="http://caffeine.sgn.cornell.edu/mailman/listinfo/sgn-announce">SGN announcement list</a> for updates.<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:sgn-feedback@sgn.cornell.edu">Suggest</a> interesting publications or pictures of Solanaceae plants.
+
+
+
+</font>
+
+</td>
+
+
+
+<td align=center rowspan=3>
+
+<font color=#333333>
+
+<br>
+
+<a href="community/feature/paran_lab.html"><img align=center height=100 src="img/feature/paran_people_small.jpg"></a>
+
+<br><a href="community/feature/paran_lab.html"><b>The Paran Lab</b></a>
+
+</font>
+
+</td>
+
+
+
+</tr>
+
+
+
+
+
+
+
+<tr><td><img src="/img/dot_clear.gif" width=1 height=5></td></tr>
+
+
+
+<tr><td>
+
+
+
+<font color=333333>
+
+&nbsp;&nbsp;<i>SGN related sites:</i><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="links/related_sites.html#related">Related Websites</a>, <a href="links/related_sites.html#journals">Journals</a><br>
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="links/related_sites.html#primer_design">Primer Design</a>, <a href="links/related_sites.html#genefinding">Genefinding</a>, <a href="links/related_sites.html#promoter_prediction">Promoter Prediction</a>, <a href="links/related_sites.html#splice_prediction">Splice Site Prediction</a>
+
+
+
+</font>
+
+
+
+</td></tr>
+
+</table>
+
+
+
+</td></tr>
+
+
+
+
+
+<tr><td colspan=9><img src="/img/dot_clear.gif" width=1 height=10></td></tr>
+
+<tr><td bgcolor=cccccc colspan=9><img src="/img/dot_clear.gif" width=1 height=1></td></tr>
+
+<tr><td colspan=9><img src="/img/dot_clear.gif" width=1 height=10></td></tr>
+
+<tr><td colspan=9>
+
+
+
+<table width=100% cellpadding=20 cellspacing=0 border=0>
+
+<tr><td bgcolor=eeeeee>
+
+<font color=333333>
+
+The goals of the Solanaceae Genomics Network include providing genomic information about solanaceous species in a comparative format and tying that information to the Arabidopsis genome. In this site you will find comparative maps, marker sequences, EST sequences, phylogenetic information, and links to related web sites. 
+
+
+
+</font>
+
+</td></tr>
+
+</table>
+
+
+
+
+
+</td></tr>
+
+</table>
+
+<!-- ********************************** body table out -->
+
+
+
+
+
+<br>
+
+<!-- begin footer include -->
+
+<!--#include virtual="/inc/footer.html" -->
+
+<!-- end footer include -->
+
+</body>
+
+</html>
+
+
+
+
+

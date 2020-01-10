@@ -1,0 +1,62 @@
+9
+
+dir
+13859
+svn+ssh://svn.sgn.cornell.edu/data/svn/cxgn/branches/apache2-rob/mantle/zamir/cgi-bin
+svn+ssh://svn.sgn.cornell.edu/data/svn/cxgn
+
+
+
+2007-07-02T15:20:37.853052Z
+9717
+naama
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b4ddb4e3-33f1-0310-aa89-e703427ae9b8
+
+counter
+dir
+
+IL_cards
+dir
+
+tools
+dir
+
+mutations
+file
+
+
+
+
+2009-03-19T15:21:24.000000Z
+98f63ee3a9621319d4f0d481c8e97e50
+2005-09-13T18:09:23.150798Z
+1979
+rob
+has-props
+
+
+svn:special
+
+mutation_site
+dir
+
+Leaf
+dir
+
+trait_search
+dir
+

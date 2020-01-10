@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Untitled</title>
+</head>
+
+<body>
+<TABLE width=100% CELLSPACING="50" cellpading="10" BORDER="0">
+<TR>
+	<TD valign="top"><script type="text/javascript" src="/mutants/menu.js"></script></TD>
+	<TD><h1>How to search the database</h1>
+		<br>
+		<FONT size=+1>
+		<LI>Click on <A HREF="/cgi-bin/mutation_site/mutant04_search.pl">Search the database</A> 				
+		link
+		<br></LI>
+		<h3>There are three options for search:</h3>
+		<OL>
+		<LI><B>search according to family ID:</B><BR>
+		If you know the family ID of a specific mutant line, write in the text box the family code.
+		<br>
+		Each mutant line code begins with "e" for <A HREF="protocol.html#EMS">
+		EMS mutants</A> or "n" for <A HREF="protocol.html#fn">FN mutants</A>
+		<br>followed by a 4 digit number.<BR>
+		So if you are interested in family no. 2 from the EMS mutants the family code will be 		
+		e0002<BR><BR></LI>
+		<LI><B>Search according to a keyword:</B><BR>
+		type in the keyword that fits the mutant you are interested in.<BR>
+		(example keywords: wiry, dwarf, anantha, ghost, entire)<BR><BR>
+		</LI>
+		<LI><B>Search according to the phenotypic catalog:</B><br>
+		In the phenotypic catalog there are 15 categories<br>
+		For each category there are several sub-categories that appear on the adjacent pull-down 		
+		menu.<br>
+		A mutant can belong only to one sub-category in each of the 15 categories<br>
+		<br>
+		You must select at least one category. Selecting sub-category is optional.<br>
+		<br>
+		When selecting more than one category the search will be for mutants classified to all the<br>
+		categories selected (category1 <B>and</B> category2).<br>
+		Therefor, when selecting many categories the output will be very few mutants or none.<br>
+		<br>
+		It's recommended to search first for one category and then narrowing down the results<br>
+		by selecting one sub-category and/or adding another category.<br>
+		<br>
+		</LI>
+		</OL>
+		<br>
+		<hr>
+		<br>
+		<A NAME="results"><h2>Search results:</h2></A>
+		<B>For each mutant in the search results its "ID card" is printed:</B><br><br>
+		<LI><B>Code:</B> a unique code for each mutant in the database ("e0002m1)- begins with "e" for 		
+		<A HREF="protocol.html#EMS">EMS</A>
+		or "n" for <A HREF="protocol.html#fn">fast-neutron</A> mutant, followed by 4-digit number 
+		which is the number of the <A HREF="family.html">mutant line</A>.
+		The last two characters are "m" + a number which stands for the mutation number within the 
+		line. Since each line can segregate for more than one mutation, their codes will be similar 
+		except for the last digit. </LI>
+		<LI><B>Details:</B> description of the mutant</LI>
+		<LI><B>Verified:</B> whether the mutant phenotype was verified in the M3 generation ("yes" or 
+		"no")</LI>
+		<LI><B>Gene:</B> mode of action of the mutated gene ("recessive, dominant, 
+		partial-dominance"). This field does not appear for all mutants.</LI>
+		<LI><B>Similar to:</B> A link to the <A HREF="http://tgrc.ucdavis.edu">TGRC</A> database. 	
+		Appears for mutants that show phenotypic similarity to known genes from the TGRC 		
+		collection</LI>
+		<LI><B>Categories:</B> a list all the categories from the <A 
+		HREF="screen.html#catalog">phenotypic catalog</A> that the mutant is classified into</LI>
+		<br><br>
+		The description of the mutant is followd by its photo thumbnails (if it has any). Clicking 		
+		each thumbnail opens a large photo in another window.
+		<br>
+		<br>
+		<IMG SRC="../mailbox.gif" WIDTH="29" HEIGHT="34" ALT="" BORDER="0">
+		If you have any questions or would like to order seed please send us <A 
+		HREF="MAILTO:issman@agri.huji.ac.il?subject=mutants">email</A>
+ 		<br>
+	</TD>
+</TR>
+</TABLE>
+</body>
+</html>

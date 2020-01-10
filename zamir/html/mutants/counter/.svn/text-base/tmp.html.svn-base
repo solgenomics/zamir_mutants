@@ -1,0 +1,30 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.76 [en] (Win98; U) [Netscape]">
+   <title>Tomato mutagenesis</title>
+</head>
+<body text="#990033" link="#0000FF" vlink="#9900FF" alink="#009933" bgcolor=#FFFFFF>
+&nbsp;
+
+Sample (For a 3 digits counter):
+
+
+<br>
+
+    <IMG SRC="/cgi-bin/mutation_site/counter/counter.cgi?0">
+<br>
+    <IMG SRC="/cgi-bin/mutation_site/counter/counter.cgi?1">
+
+        Write the second digits.
+        <br>
+     <IMG SRC="/cgi-bin/mutation_site/counter/counter.cgi?2">
+        Write the 3th digits
+<br>
+<IMG SRC="/cgi-bin/mutation_site/counter/counter.cgi?3@w">
+
+and Increment the counter file. -->
+
+</body>
+</html>

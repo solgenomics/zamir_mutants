@@ -1,0 +1,97 @@
+9
+
+dir
+13859
+svn+ssh://svn.sgn.cornell.edu/data/svn/cxgn/branches/apache2-rob/mantle/zamir/html
+svn+ssh://svn.sgn.cornell.edu/data/svn/cxgn
+
+
+
+2008-01-24T13:58:36.138843Z
+11082
+naama
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b4ddb4e3-33f1-0310-aa89-e703427ae9b8
+
+IL_cards
+dir
+
+Qtl
+dir
+
+mut-field_comp.jpg
+file
+
+
+
+
+2009-03-19T15:21:22.000000Z
+66374bab54cec5abe280941e1a8e17dd
+2005-09-13T18:09:23.150798Z
+1979
+rob
+has-props
+
+IL_cards_images
+dir
+
+mutation_images
+dir
+
+mut-field.jpg
+file
+
+
+
+
+2009-03-19T15:21:23.000000Z
+cad33f19e05e90ba006ebb09edf091ad
+2005-09-13T18:09:23.150798Z
+1979
+rob
+has-props
+
+index.html
+file
+
+
+
+
+2009-03-19T15:21:23.000000Z
+d5d73668c053b0b2df2122c6509116df
+2005-10-05T20:21:25.063500Z
+2073
+naama
+
+mutants
+dir
+
+Dip
+dir
+
+favicon.ico
+file
+
+
+
+
+2009-03-19T15:21:23.000000Z
+45600002f526f01145b33a32a30c3b23
+2006-08-08T14:30:44.525861Z
+6998
+john
+has-props
+

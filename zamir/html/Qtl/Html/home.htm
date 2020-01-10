@@ -1,0 +1,644 @@
+
+<html>
+<head>
+<script language="javascript" SRC = "functions.js">
+<!--// 
+	document.write("can not find functions");
+//-->
+</script>
+
+<script language="javascript">
+<!--// 
+
+
+
+function GoToPage_1()
+{
+
+ 		var index;
+		var trait;
+		var exper;
+		
+		
+		index = document.form1.s7.selectedIndex;
+		trait = document.form1.s7.options[index].value;
+		
+		if (!trait)
+		{
+		 	 alert("you must select a group of traits and then select a trait.\nthen choose 'chromosome' or 'IL'");
+			 return;
+		}
+		
+		exper = get_ex_by_tr(trait, 2);
+		
+		
+
+ 		if (document.form1.a.checked)		//chromosome
+		{
+		 	 index   = document.form1.chr.selectedIndex;
+			 var chr = document.form1.chr.options[index].value;
+			 
+			 if (!chr)
+			 {
+			 	  alert("you didn't specify chromosome number");
+					return;
+			 }
+			 
+			 location = "ch_all_lines_1.htm?page_type=1&tr="+trait+"&ex="+exper+"&ch="+chr;
+			 return;
+		}
+		
+		if (document.form1.b.checked)		//il
+		{
+		
+		   index  = document.form1.select_ils.selectedIndex;
+			 var il = document.form1.select_ils.options[index].value;
+			 
+			 if (!il)
+			 {
+			 		alert("You didn't specify IL");
+					return;			 
+			 }
+			 
+			 
+			 var arr     = /IL(\d+)/g.exec(il);
+			 
+			 location = "il_analysis.htm?page_type=1&tr="+trait+"&ex="+exper+"&ch="+arr[1]+"&il="+il;
+			 
+			 return;
+		}
+		
+
+}
+ 
+function populate(ind)
+{
+	var index = ind;
+		
+	if (index == 0)
+	{
+	  document.form1.s2.options.length = 0;
+		document.form1.s2.options[0] = new Option("Select group first","");
+	   
+	}	
+	if (index == 1)
+	{
+		document.form1.s2.options.length = 0;
+		document.form1.s2.options[0] = new Option("Select trait");
+		document.form1.s2.options[1] = new Option("Plant Weight", "Plant_Weight");
+		document.form1.s2.options[2] = new Option("Total Yield", "Total_Yield");
+		document.form1.s2.options[3] = new Option("Bio - Mass", "Bio_-_Mass");
+		document.form1.s2.options[4] = new Option("Brix * Yield", "Brix_*_Yield");
+		document.form1.s2.options[5] = new Option("% Red Yield", "%_Red_Yield");
+		document.form1.s2.options[6] = new Option("Harvest Index", "Harvest_Index");
+		document.form1.s2.options[7] = new Option("Brix", "Brix");
+		
+	}
+	if (index == 2)
+	{
+		document.form1.s2.options.length = 0;
+		document.form1.s2.options[0] = new Option("Select trait");
+		document.form1.s2.options[1] = new Option("Fruit Weight", "Fruit_Weight");
+		document.form1.s2.options[2] = new Option("Fruit Length", "Fruit_Length");
+		document.form1.s2.options[3] = new Option("Fruit Width", "Fruit_Width");
+		document.form1.s2.options[4] = new Option("Length/Width", "Length_/_Width");
+		document.form1.s2.options[5] = new Option("Internal Color", "Internal_Color");
+		document.form1.s2.options[6] = new Option("External Color", "External_Color");
+		document.form1.s2.options[7] = new Option("Seed Weight", "Seed_Weight");
+		document.form1.s2.options[8] = new Option("Pericarp", "Pericarp");
+		document.form1.s2.options[9] = new Option("A*", "A_*");
+		document.form1.s2.options[10] = new Option("B*", "B_*");
+		document.form1.s2.options[11] = new Option("L*", "L_*");
+
+	
+	}
+	if (index == 3)
+	{
+		document.form1.s2.options.length = 0;
+		document.form1.s2.options[0] = new Option("Select trait");
+		document.form1.s2.options[1] = new Option("Lycopene", "Lycopene");
+		document.form1.s2.options[2] = new Option("Carotene", "Carotene");
+	
+	}
+	
+
+}
+
+
+function populate_2(ind)
+{
+	var index = ind;
+		
+	if (index == 0)
+	{
+	  document.form1.s7.options.length = 0;
+		document.form1.s7.options[0] = new Option("Select group first","");
+	   
+	}	
+		
+	if (index == 1)
+	{
+		document.form1.s7.options.length = 0;
+		document.form1.s7.options[0] = new Option("Select trait");
+		document.form1.s7.options[1] = new Option("Plant Weight", "Plant_Weight");
+		document.form1.s7.options[2] = new Option("Total Yield", "Total_Yield");
+		document.form1.s7.options[3] = new Option("Bio - Mass", "Bio_-_Mass");
+		document.form1.s7.options[4] = new Option("Brix * Yield", "Brix_*_Yield");
+		document.form1.s7.options[5] = new Option("% Red Yield", "%_Red_Yield");
+		document.form1.s7.options[6] = new Option("Harvest Index", "Harvest_Index");
+		document.form1.s7.options[7] = new Option("Brix", "Brix");
+		
+	}
+	if (index == 2)
+	{
+		document.form1.s7.options.length = 0;
+		document.form1.s7.options[0] = new Option("Select trait");
+		document.form1.s7.options[1] = new Option("Fruit Weight", "Fruit_Weight");
+		document.form1.s7.options[2] = new Option("Fruit Length", "Fruit_Length");
+		document.form1.s7.options[3] = new Option("Fruit Width", "Fruit_Width");
+		document.form1.s7.options[4] = new Option("Length/Width", "Length_/_Width");
+		document.form1.s7.options[5] = new Option("Internal Color", "Internal_Color");
+		document.form1.s7.options[6] = new Option("External Color", "External_Color");
+		document.form1.s7.options[7] = new Option("Seed Weight", "Seed_Weight");
+		document.form1.s7.options[8] = new Option("Pericarp", "Pericarp");
+		document.form1.s7.options[9] = new Option("A*", "A_*");
+		document.form1.s7.options[10] = new Option("B*", "B_*");
+		document.form1.s7.options[11] = new Option("L*", "L_*");
+
+	
+	}
+	if (index == 3)
+	{
+		document.form1.s7.options.length = 0;
+		document.form1.s7.options[0] = new Option("Select trait");
+		document.form1.s7.options[1] = new Option("Lycopene", "Lycopene");
+		document.form1.s7.options[2] = new Option("Carotene", "Carotene");
+	
+	}
+	
+
+}
+
+
+
+//-->
+</script>
+
+
+
+
+</head>
+
+<body bgColor="#FFFFCC">
+
+
+<!-----------------------------------------------------------------------   Table   ---------------------------------------------------------------------------->
+
+
+<table border="0" >
+
+
+<tr>
+
+
+
+<script language="javascript">
+<!--// 
+	document.write("<td bgColor='" + get_color() + "'>");
+//-->
+</script>
+
+
+<table>
+
+<tr>
+
+
+<td colspan = "5">
+<center><font COLOR="#ff0000" size = "5"><i><b>Single trait analysis :</b></i> </font><BR><BR></center>
+</td>
+</tr>
+
+
+<tr>
+
+<td>
+<center>
+<font COLOR="#000080" SIZE="4"><b>Group of traits</b></font>
+</center>
+</td>
+
+<td>
+<center>
+<font COLOR="#000080" SIZE="4"><b>Trait</b></font>
+</center>
+</td>
+
+
+</tr>
+
+<form name="form1" method="post">
+<tr>
+
+<td>
+<center>
+<select name="s1" onClick = "populate(this.selectedIndex); " size="1">
+<option value="" selected> Select group
+<option value="Yield"> Yield
+<option value="Fruit morphology"> Fruit morphology
+<option value="Fruit Biochemistry"> Fruit Biochemistry
+</select>
+</center>
+</td>
+
+<td>
+<center>
+<select name="s2" size="1">
+</select>
+</center>
+</td>
+
+
+<td>
+<center>
+<input type="button" style="background-color: #ff6262;color: #0000ff;" value="Action" onClick="goToPage(1)">
+</center>
+
+</td>
+</tr>
+
+
+<script language="javascript">
+<!--//
+
+var tempo = document.form1.s1.selectedIndex;
+populate(tempo);
+ 
+	
+//-->
+</script>
+
+
+<tr><td colspan="5" ><hr size="20" style="background-color: #ffffcc;"></td></tr>
+<tr>
+
+<td colspan="5" align="center"><font COLOR="#ff0000" size = "5"><b><i>Genotype analysis :</i></b> </font><BR><BR></td>
+</tr>
+
+
+<tr>
+<td><center><font COLOR="#000080" SIZE="4"><b>Group of traits</b></font></center></td>
+
+<td><center><font COLOR="#000080" SIZE="4"><b>Trait</b></font></center></td>
+
+<td><input type="radio" name="a" checked="checked" onClick="set_radio(0)"/><font color="#000080" size="4"><b>Chromosome</b></font> </td>
+
+<td>
+<select name="chr" onClick="form.a.checked=true; form.b.checked=false;">
+<option value="">Chr</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option>
+<option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option>
+<option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option>
+</select></td>
+</td>
+
+<td rowspan="2" valign="center" align="center"><pre>     <input type="button"  style="background-color: #ff6262; color: #0000ff;"value="Action" onClick="GoToPage_1()"/>         </pre></td>
+
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+<td>
+<center><select name="s6" onClick = "populate_2(this.selectedIndex); " size="1">
+<option value="" selected> Select Group
+<option value="Yield"> Yield
+<option value="Fruit morphology"> Fruit morphology
+<option value="Fruit Biochemistry"> Fruit Biochemistry</select>
+</center>
+</td>
+
+<td>
+<center>
+<select name="s7" size="1"></select>
+</center>
+</td>
+
+<td><input type="radio" name="b" onClick="set_radio(1)"/><font color="#000080" size="4"><b>IL</b></font></td>
+
+<td><script type="text/javascript">
+<!--
+function change_radio()
+{  
+ 	document.form1.a.checked=false; 
+	document.form1.b.checked=true;	
+}
+
+document.write(select_ils());
+document.form1.select_ils.onclick=change_radio;
+// -->
+</script>
+
+		
+<tr>
+
+
+
+
+
+
+<script language="javascript">
+<!--// 
+
+var tempo = document.form1.s6.selectedIndex;
+populate_2(tempo);	
+	
+//-->
+</script>
+
+
+<!-- ------------------------------------------------------- -->
+
+
+
+<tr><td colspan="5" ><hr size="20" style="background-color: #ffffcc;"></td></tr>
+<td colspan = "5" >
+
+<center><font COLOR="#ff0000" size = "5"><b><i>Association among traits :</i></b> </font></center>
+
+
+<table border="0">
+<tr><td align="center" ><font color="#000080" size="4"><b>Experiment<b></font></td><td></td></tr>
+<tr><td><script language="javascript">
+
+
+var my_arr = all_experiments();
+my_arr     = del_ex(my_arr, "Combined");
+
+document.write("<select name='s3' size='1'>");
+
+var i;
+for (i=0; i<my_arr.length; i++)
+{
+ 		if (my_arr[i].search("Global") == -1)
+		{
+				if (i==0)
+				{
+				  document.write("<option value=''   selected>Select experiment");
+				 	document.write("<option value='Global'>Global experiment");
+					document.write("<option value='"+ my_arr[i]+"'>" + translate(my_arr[i]));
+				}
+	
+				else
+						document.write("<option value='"+ my_arr[i]+"'>" + translate(my_arr[i]));
+						
+		}	
+}
+document.write("</select>");
+
+//-->
+</script>
+</td>
+<td>
+<input type="button" style="background-color: #ff6262;color: #0000ff;" value="Action"  onClick="goToPage(2)"><br>
+</td><BR>
+
+</tr>
+</table>
+
+<script type="text/javascript">
+<!--
+var tr_array = all_traits();
+	
+	var i;
+
+
+  document.write("<br><b><font color='#000080' size='4'>Zoom in on a specific pair of traits :</font></b><BR><BR>");
+	
+	
+	document.write("<select name='t1'>");
+	document.write("<option value=''> Select trait 1</option>");
+	for(i=0; i<tr_array.length; i++)
+	{
+	 		document.write("<option value='" + tr_array[i] +"'>"+ translate(tr_array[i])+ "</option>");
+	}	
+	document.write("</select>");
+	
+	document.write("<select name='t2'>");
+	document.write("<option value=''> Select trait 2</option>");
+	for(i=0; i<tr_array.length; i++)
+	{
+	 		document.write("<option value='" + tr_array[i] +"'>"+ translate(tr_array[i])+ "</option>");
+	}	
+	document.write("</select>");
+	
+	document.write("<input type='button' style='background-color: #ff6262;color: #0000ff;' value='Action' onClick='goToPage(5)'>");
+
+ 
+// -->
+</script>
+	
+
+
+ 
+
+
+
+</td>
+
+
+
+<tr><td colspan="5" ><hr size="20" style="background-color: #ffffcc;"></td></tr>
+<tr>
+<td colspan = "5">
+
+
+
+<center><font COLOR="#ff0000" size = "5"><b><i>Phenotype combination search :</i></b> </font><BR><BR></center>
+<center><input type="button" style="background-color: #ff6262;color: #0000ff;" value="Search" onClick="goToPage(4)"><br></center>
+
+</td>
+</tr>
+
+
+
+
+</form>
+
+</table>
+</td>
+
+<script language="javascript">
+<!--// 
+	document.write("<td width='300' valign = 'top' >");
+//-->
+</script>
+<center><font COLOR="#663300" SIZE="7"><b><i>Real Time QTL</i></b> </font><br></center>
+
+
+<BR><ul>
+ <li><a href="browsers.htm" target="_blanc"><font color="#000080" size="3">Check first - browser compatibility !</font></a></li>
+ <li><a href="../RTQ_Demo.ppt"><font color="#000080" size="3">download tutorial (PowerPoint format)</font></a></li>
+</ul>
+<ul>
+<b>
+<font size="3" >
+<li>You can explore <cite>in silico</cite> gentic component of tomato quantitative trait loci (QTL). </li><BR>
+<li>The population is <a href="../il_story.htm"><font color="#ff0000">Introgression Line (IL)</a></font> from crosses of a <a href="../Wild/wild.htm"><font color="#ff0000">wild tomato</font></a> species with the variety <a href="../m82_card.htm"><font color="#ff0000">M82</font></a>.</li><BR>
+<li>The dataset includes <a href="../all_traits.htm"><font color="#ff0000">20 traits</font></a> from <a href="../experiment_card.htm"><font color="#ff0000"><br>8 experiments</font></a>.</li><BR>
+<li>The <a href="../global.htm"><font color="#ff0000">global dataset</font></a> contains all phenotypes in a single analysis.</li><BR>
+<li>All <a href="../Statistics/statistics.htm"><font color="#ff0000">statistics</font></a> is done using  JMP and Excel and displayed graphically.</li><BR>
+<li>QTL's are linked to <a href="http://www.sgn.cornell.edu/maps/tomato_arabidopsis/synteny_map.html"><font color="#ff0000">SGN map intervals</a></font> and in a few cases to <a href="../Sequence.htm"><font color="#ff0000">gene sequences</font></a>.</li></font><BR>
+<li><a href="../RTQ_story.pdf"><font color="#663300"><i>Real time QTL story.</i></font></a> <a href="../RTQ_story.doc"><font color="#ff0000">(download here)</font></a></li>
+<b>
+</ul>
+
+
+<!-- <input type="button" style="color: #0000ff;" style="background-color: #ff6262;" value="Index page" onClick="location='http://www.sgn.cornell.edu/mutation_images/Qtl/Html/welcome_page.htm'">
+<input type="button" style="color: #0000ff;" style="background-color: #ff6262;" value="Downloads" onClick="location='error_2.htm'">
+ <BR><BR> -->
+ <center>
+<input type="button" style="background-color: #ff6262;color: #0000ff;" value="Contributing labs" onClick="location='../labs.htm'">
+<input type="button" style="background-color: #ff6262;color: #0000ff;" value="Index page" onClick="location='http://zamir.sgn.cornell.edu/index.html'">
+</center>
+<hr>
+<table border="0" align="center"><tr>
+
+<td valign="top" align="center">
+<img src="../../../../cgi-bin/counter/qtl_count.cgi" /><br><a href="MAILTO:semel@agri.huji.ac.il?SUBJECT=Real time QTL">Send comments</a>
+</td>
+<td><pre>    </pre></td>
+<td valign="top" align="center">
+<img src="../General/flower_1.jpg"><br><a href="http://zamir.sgn.cornell.edu/mutants/" target="_blanc">M82 mutants</a>
+
+</td>
+
+</tr></table>
+
+</td>
+
+</tr>
+
+
+
+
+</table>
+</td>
+
+
+</body>
+</html>
+
+<script language="javascript">
+<!--//
+
+function goToPage(t)
+{
+	var type = t;
+	var tr, ex;
+	var index;
+	
+	switch (type)
+	{
+		case 1 :
+			index = document.form1.s2.selectedIndex;
+
+			tr   = document.form1.s2.options[index].value;
+			if (!tr) 
+			{
+				 alert("you must select a group of traits and then select a trait.");
+				 return;
+			}
+			
+			ex = get_ex_by_tr(tr, 2);
+			  			
+			location = "distribution.htm?page_type=1&tr="+tr+"&ex=" + ex;
+			
+			
+			break;
+			
+		case 2 :
+
+			index = document.form1.s3.selectedIndex;
+
+			ex   = document.form1.s3.options[index].value;
+			
+			if (!ex)
+			{
+			   alert("you must specify experiment");
+				 return;
+			}
+			
+
+			if (ex.search("Global") != -1)
+				 location = "trait_correlation.htm?page_type=3&tr=undef&ex=" + ex;
+			else
+				 location = "trait_correlation.htm?page_type=3&tr=undef&ex=" + ex;
+		 
+			
+			break;
+		case 3:
+			index = document.form1.s5.selectedIndex;
+
+			tr   = document.form1.s5.options[index].value;
+		
+			location = "experiment_correlation.htm?page_type=1&tr=" + tr + "&ex=undef";
+		
+			break;
+		case 4:
+			location = "http://zamir.sgn.cornell.edu/cgi-bin/trait_search/traits.pl";
+			break;
+			
+			
+		case 5:
+			var ind = document.form1.t1.selectedIndex;
+			var tr1 = document.form1.t1.options[ind].value;;
+			ind     = document.form1.t2.selectedIndex;
+			var tr2 = document.form1.t2.options[ind].value;
+			
+			if (!tr1  ||  !tr2)
+			{
+			 	 alert ("You must select 2 traits");
+				 return;
+			}
+			
+			if (tr1.search(tr2) != -1   &&  tr2.search(tr1) != -1)
+			{
+			 	 alert ("You must select 2 different traits !");
+				 return;
+			}
+			
+			location = "global_correlation.htm?page_type=1&tr1=" + tr1 +"&tr2="+tr2+"&front=1";
+			break;	
+			
+	}
+	
+
+
+}
+
+
+
+function set_radio(t)
+{
+	var type = t;
+			
+	if (type == 0)
+	{
+		document.form1.b.checked = false;
+	}
+	if (type == 1)
+	{
+		document.form1.a.checked = false;
+	}
+	
+	
+}
+
+
+//-->
+</script>

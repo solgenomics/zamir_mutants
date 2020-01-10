@@ -1,0 +1,377 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>Global correlation</title>
+
+<script language="javascript" SRC = "functions.js">
+<!--// 
+	document.write("can not find functions.js");
+//-->
+</script>
+</head>
+
+
+<body bgColor="#ffffcc">
+
+<script type="text/javascript">
+<!--
+var array;
+var page_type;
+var tr1;
+var tr2;
+var ex;
+var bool = 0;
+
+
+array =  /page_type=(\d+)&tr1=(.+)&tr2=([\w|\/|%|\-|\*]+)/g.exec(location);
+
+page_type = array[1];
+tr1       = array[2];
+tr2       = array[3];
+
+array = /front=(\d)/g.exec(location);
+
+if (array)
+{
+ 	 bool = 1;
+}
+
+
+
+function set_radio(t)
+{
+	var type = t;
+			
+	if (type == 1)
+	{
+		document.form1.r2.checked = false;		
+	}
+	if (type == 2)
+	{
+		document.form1.r1.checked = false;		
+	}
+	
+	
+}
+
+
+function set_radio_1(t)
+{
+	var type = t;
+			
+	if (type == 4)
+	{
+		document.form1.r5.checked = false;		
+	}
+	if (type == 5)
+	{
+		document.form1.r4.checked = false;		
+	}
+	
+	
+}
+
+
+
+function goToPage(t)
+{
+ 		var type = t;
+		
+		var index = document.form1.s1.selectedIndex;
+		var il       = document.form1.s1.options[index].value;
+		
+		var arr     = /IL(\d+)/g.exec(il);
+		var experiments_array;
+		
+		switch (type)
+		{
+		 		case 1:
+				 	  location = "trait_correlation.htm?page_type="+page_type+"&tr=undef&ex=Global";
+						break;
+				case 2:
+				     if (!il)
+						 {
+		   			 	  alert("You must select IL");
+			 				  return;
+				     }
+						 if (document.form1.r1.checked)
+						 {						 		
+						 		location = "il_analysis.htm?page_type=2&tr="+tr1+"&ex=Global&ch="+arr[1]+"&il="+il;								
+						 }
+						 if (document.form1.r2.checked)
+						 {						 		
+						 		location = "il_analysis.htm?page_type=2&tr="+tr2+"&ex=Global&ch="+arr[1]+"&il="+il;								
+						 }
+						 
+						 break;
+			case 3:
+					 if (!il)
+						 {
+		   			 	  alert("You must select IL");
+			 				  return;
+				     }
+					 window.open("http://zamir.sgn.cornell.edu/cgi-bin/IL_cards/qtl.cgi?menu=il_card&il="+il);
+					 break;
+					 
+			case 4:
+					 index = document.form1.s2.selectedIndex;
+					 var chr = document.form1.s2.options[index].value;
+					 if (!chr)
+					 {
+					    alert("You must select chromosome");
+							return;
+					 }
+					 var exper;
+					 if (document.form1.r4.checked)
+					 {
+					 		exper = get_ex_by_tr(tr1, 2);
+					 		location = "ch_all_lines_1.htm?page_type=1&tr="+tr1+"&ex="+exper+"&ch="+chr;
+							
+					 }
+					 else
+					 {
+					  	exper = get_ex_by_tr(tr2, 2);
+					 		location = "ch_all_lines_1.htm?page_type=1&tr="+tr2+"&ex="+exper+"&ch="+chr;				 
+					 }
+					 break;		 
+					 					 		
+		}
+}
+
+//-->
+</script></font>
+
+
+
+<h1><font COLOR="#800040"><center>
+Correlation of
+
+<script language="javascript">
+<!--// 
+var file = "../Trait_card/" + f_translate_tr(translate(tr1)) + ".htm";		
+document.write("<a href='"+file+"' target='_blanc'><font COLOR='#0000FF' SIZE='6'>"+translate(tr1)+"</font></a>");
+//-->
+</script>
+with
+</font>
+
+<script language="javascript">
+<!--// 
+file = "../Trait_card/" + f_translate_tr(translate(tr2)) + ".htm";		
+document.write("<a href='"+file+"' target='_blanc'><font COLOR='#0000FF' SIZE='6'>"+translate(tr2)+"</font></a>");
+//-->
+</script></h1></center>
+
+
+<table>
+<tr>
+
+
+
+
+<script language="javascript">
+<!--// 
+	document.write("<td bgColor='" + get_color() + "' valign = 'top' width = '500'>");
+//-->
+</script>
+
+
+<form name="form1" method="post" action="" enctype="text/plain">
+<BR>
+<font COLOR="#0000FF" SIZE="5"><b>Select IL :</b></font><BR><BR>
+
+
+		<select name='s1'>
+		<option value=''>Select IL
+		<option value='IL1-1'>IL1-1
+		<option value='IL1-1-2'>IL1-1-2
+		<option value='IL1-1-3'>IL1-1-3
+		<option value='IL1-2'>IL1-2
+		<option value='IL1-3'>IL1-3
+		<option value='IL1-4'>IL1-4
+		<option value='IL1-4-18'>IL1-4-18
+		
+		<option value='IL2-1'>IL2-1
+		<option value='IL2-1-1'>IL2-1-1
+		<option value='IL2-2'>IL2-2
+		<option value='IL2-3'>IL2-3
+		<option value='IL2-4'>IL2-4
+		<option value='IL2-5'>IL2-5
+		<option value='IL2-6'>IL2-6
+		<option value='IL2-6-5'>IL2-6-5
+		
+		<option value='IL3-1'>IL3-1
+		<option value='IL3-2'>IL3-2
+		<option value='IL3-3'>IL3-3
+		<option value='IL3-4'>IL3-4
+		<option value='IL3-5'>IL3-5
+		
+		<option value='IL4-1'>IL4-1
+		<option value='IL4-1-1'>IL4-1-1
+		<option value='IL4-2'>IL4-2
+		<option value='IL4-3'>IL4-3
+		<option value='IL4-3-2'>IL4-3-2
+		<option value='IL4-4'>IL4-4
+		
+		<option value='IL5-1'>IL5-1
+		<option value='IL5-2'>IL5-2
+		<option value='IL5-3'>IL5-3
+		<option value='IL5-4'>IL5-4
+		<option value='IL5-5'>IL5-5
+		
+		<option value='IL6-1'>IL6-1
+		<option value='IL6-2'>IL6-2
+		<option value='IL6-2-2'>IL6-2-2
+		<option value='IL6-3'>IL6-3
+		<option value='IL6-4'>IL6-4
+		
+		<option value='IL7-1'>IL7-1
+		<option value='IL7-2'>IL7-2
+		<option value='IL7-3'>IL7-3
+		<option value='IL7-4'>IL7-4
+		<option value='IL7-4-1'>IL7-4-1
+		<option value='IL7-5'>IL7-5
+		<option value='IL7-5-5'>IL7-5-5
+		
+		<option value='IL8-1'>IL8-1
+		<option value='IL8-1-1'>IL8-1-1
+		<option value='IL8-1-3'>IL8-1-3
+		<option value='IL8-2'>IL8-2
+		<option value='IL8-3'>IL8-3
+		<option value='IL8-3-1'>IL8-3-1
+		
+		<option value='IL9-1'>IL9-1
+		<option value='IL9-1-2'>IL9-1-2
+		<option value='IL9-1-3'>IL9-1-3
+		<option value='IL9-2'>IL9-2
+		<option value='IL9-2-5'>IL9-2-5
+		<option value='IL9-2-6'>IL9-2-6
+		<option value='IL9-3'>IL9-3
+		<option value='IL9-3-1'>IL9-3-1
+		<option value='IL9-3-2'>IL9-3-2
+		
+		<option value='IL10-1'>IL10-1
+		<option value='IL10-1-1'>IL10-1-1
+		<option value='IL10-2'>IL10-2
+		<option value='IL10-2-2'>IL10-2-2
+		<option value='IL10-3'>IL10-3
+		
+		<option value='IL11-1'>IL11-1
+		<option value='IL11-2'>IL11-2
+		<option value='IL11-3'>IL11-3
+		<option value='IL11-4'>IL11-4
+		<option value='IL11-4-1'>IL11-4-1
+		
+		<option value='IL12-1'>IL12-1
+		<option value='IL12-1-1'>IL12-1-1
+		<option value='IL12-2'>IL12-2
+		<option value='IL12-3'>IL12-3
+		<option value='IL12-3-1'>IL12-3-1
+		<option value='IL12-4'>IL12-4
+		<option value='IL12-4-1'>IL12-4-1
+		</select><BR>
+
+<input type="radio" name="r1" value="1" onClick="set_radio(1)" checked> 
+<font COLOR="#0000FF" SIZE="3"><b>View 
+<font COLOR="#800040" SIZE="3"><script language="javascript">
+<!--// 
+document.write(" "+translate(tr1));
+//-->
+</script></font>
+details </b></font><br>
+
+<input type="radio" name="r2" value="2" onClick="set_radio(2)"> 
+<font COLOR="#0000FF" SIZE="3"><b>View 
+<font COLOR="#800040" SIZE="3">
+<script language="javascript">
+<!--// 
+document.write(" "+translate(tr2));
+//-->
+</script></font>
+details </b></font><br>
+
+
+<!-- <input type="radio" name="r3" value="3" onClick="set_radio(3)"> 
+<b><font COLOR="#0000FF" SIZE="3">View all traits in 
+<font COLOR="#800040" SIZE="3">Global</font> experiment</font></b>
+<br><BR> -->
+
+
+<input type="button" value="Go to IL" onClick="goToPage(2)"><br>
+<input type="button" value="Show IL card" onClick="goToPage(3)">
+
+<BR><BR><HR>
+
+<font COLOR="#0000FF" SIZE="5"><b>Go to chromosome of a specified trait :</b></font><BR><BR>
+<select name="s2">
+<option value="">Select chromosome
+<option value="1">1
+<option value="2">2
+<option value="3">3
+<option value="4">4
+<option value="5">5
+<option value="6">6
+<option value="7">7
+<option value="8">8
+<option value="9">9
+<option value="10">10
+<option value="11">11
+<option value="12">12
+</select><BR>
+
+<script type="text/javascript">
+<!--
+document.write("<b> <input type='radio' name='r4' value='"+tr1+"' onClick='set_radio_1(4)' checked><font color='#800040' >"+translate(tr1)+"</font><BR>"); 
+document.write("<input type='radio' name='r5' value='"+tr2+"' onClick='set_radio_1(5)'><font color='#800040'>"+translate(tr2)+"</font><BR></b>"); 
+document.write("<input type='button' value='Go to chromosome' onClick='goToPage(4)'><br>");
+// -->
+</script>
+
+<BR><BR><HR>
+<font COLOR="#0000FF" SIZE="5"><b>Back to:</b></font><BR><BR>
+
+<script type="text/javascript">
+<!--
+if (bool == 0)
+	 document.write("<input type='button' value='Previous page'  onClick='goToPage(1);'>");
+
+// -->
+</script>
+<input type="button" value="Front page"  onClick="location = 'home.htm';"><br><BR>
+
+
+</form>
+</td>
+
+<td>
+
+<a href="../Statistics/bivariate.htm?page_type=1" target="_blanc"><b>Figure description</b></a><br><br>
+
+<script language="javascript">
+<!--// 
+	var filename, n1, n2;
+	n1 = f_translate_tr(tr1);
+	n2 = f_translate_tr(tr2);
+	
+	if (n1<n2)
+		filename = n1 + "-" + n2 + ".png";
+	else
+		filename = n2 + "-" + n1 + ".png";
+	
+	var path = "../Pictures/Correlation/global/" + filename;
+	
+	//document.write("path is "+path);
+		
+		document.write("<img src='" + path +  "' border='0' >");
+	
+
+//-->
+</script>
+
+</td>
+</tr>
+</table>
+
+
+</body></html>

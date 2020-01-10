@@ -1,0 +1,290 @@
+
+<html>
+<head>
+
+<script language="javascript" SRC="functions.js">
+<!--// 
+documnet.write("can not find functions.js");
+//-->
+</script>
+
+<script language="JavaScript">
+<!-- Hide from old browsers
+//Hide from Java Script
+
+var st = location;
+var page_type;
+var trait;
+var experiment;
+var ex;
+var tr;
+var ex_array;
+
+
+array = get_param(st, 2);
+
+page_type = array[0];
+tr  = array[1];
+ex = array[2];
+trait = translate(tr);
+experiment  = translate(ex);
+
+function goToPage_1()
+{
+	var index = document.form1.s1.selectedIndex;
+	var temp_tr = document.form1.s1.options[index].value;
+	
+	if (!temp_tr)
+	{
+	   alert("you must select experiment");
+		 return;
+	}
+	
+	var win = window.open("distribution.htm?page_type=2&tr=" + tr + "&ex=" + temp_tr);
+	
+}
+
+
+
+
+
+function goToPage(t)
+{
+	typ = t;
+	if (typ != 1)
+	{
+		if (document.form1.r1  &&  document.form1.r1.checked == true)
+		{			
+			location = "experiment_correlation.htm?page_type=" + page_type + "&tr=" + tr + "&ex=" + ex;
+		}		
+		if (document.form1.r2.checked == true)
+		{
+			location = "tail_chart.htm?page_type=" + page_type + "&tr=" + tr + "&ex=" + ex;
+		}
+		if (document.form1.r3.checked == true)
+		{
+			location =  "qtl_map.htm?page_type=" + page_type + "&tr=" + tr + "&ex=" + ex;
+		}
+		
+	}
+	else
+	{
+		location = "home.htm";
+	}
+}
+
+
+function set_radio(t)
+{
+	var type = t;
+			
+	if (type == 1)
+	{
+		document.form1.r2.checked = false;
+		document.form1.r3.checked = false;
+	}
+	if (type == 2)
+	{
+		document.form1.r1.checked = false;
+		document.form1.r3.checked = false;
+	}
+	if (type == 3)
+	{
+		document.form1.r1.checked = false;
+		document.form1.r2.checked = false;
+	}
+}
+
+function set_radio_1(t)
+{
+	var type = t;
+			
+	if (type == 2)
+	{
+		document.form1.r3.checked = false;		
+	}
+	if (type == 3)
+	{
+		document.form1.r2.checked = false;		
+	}
+	
+}
+
+
+//-->
+
+</script>
+
+</head>
+
+<body  bgColor="#ffffcc">
+<center>
+<b><font COLOR="#800040" SIZE="6">Frequency Distribution of 
+<script language="javascript">
+<!--// 	
+	
+	var file = "../Trait_card/" + f_translate_tr(trait) + ".htm";		
+	document.write("<a href='"+file+"' target='_blanc'><font COLOR='#0000FF' SIZE='6'>"+trait+"</font></a>");
+	
+//-->
+</script>
+means of ILs 
+<script type="text/javascript">
+<!--
+var con_arr = get_ex_by_tr(tr, 1);
+var l = con_arr.length;
+if (ex.search("Akko_-_1993_-_Wet") != -1 || ex.search("Akko_-_2000_-_Dry") != -1 || ex.search("Akko_-_2000_-_Wet") != -1 || ex.search("Combined") != -1)
+{
+	 document.write("and ILHs");
+} 
+// -->
+</script>
+in 
+<script language="javascript">
+<!--// 
+document.write("<a href='../experiment_card.htm?page_type=1&experiment="+ex+"' target='_blanc'><font COLOR='#0000FF' SIZE='6'>"+experiment+"</a>");
+//-->
+</script></font>
+experiment. Values are presented as % of control (M82).</font></b><BR><BR></center>
+
+<table>
+<tr>
+
+
+
+<!-- <td  bgColor="#E7B818" valign = "top"> -->
+<script language="javascript">
+<!--// 
+	document.write("<td bgColor='" + get_color() + "'valign = 'top'>");
+//-->
+</script>
+
+<form name="form1" method="post" action="" enctype="text/plain">
+
+<font COLOR="#0000FF" SIZE="5"><b>Choose one of these options:</b></font><BR><BR>
+
+<script type="text/javascript">
+<!--
+var arr = get_ex_by_tr(tr, 1);
+arr     = del_ex(arr, ex);
+var len = arr.length;
+
+if (len > 0)
+{
+	 document.write("<input type='radio' name='r1'  onClick='set_radio(1)' value='a' checked><b>View trait-environment interaction</b><br>");
+	 document.write("<input type='radio' name='r2'  onClick='set_radio(2)' value='b'><b>View tails</b><BR>");
+	 document.write("<input type='radio' name='r3' onClick='set_radio(3)' value='c'><b>View whole genome QTL map</b><BR>");
+}
+else
+{
+   document.write("<input type='radio' name='r2'  onClick='set_radio_1(2)' value='b' checked><b>View tails chart</b><BR>");
+	 document.write("<input type='radio' name='r3' onClick='set_radio_1(3)' value='c'><b>View whole genome QTL map</b><BR>");
+}
+// -->
+</script>
+
+
+
+
+
+<input type="button" value="GO" onClick="goToPage()"><br>
+
+<BR><HR><BR>
+
+<script language="javascript">
+<!--// 
+ex_array   = get_ex_by_tr(tr, 1);
+ex_array   = del_ex(ex_array, ex);
+var length = ex_array.length;
+var i;
+
+if (page_type == 1)
+{
+
+	document.write("<font COLOR='#0000FF' SIZE='5'><b>View frequency distribution in other experiment :</b></font><BR><BR>");
+
+
+
+	if (length > 0)
+	{
+
+
+ 		for (i=0; i<length; i++)
+		{
+			if (i == 0)
+			{
+				document.write("<select name='s1'>");
+				document.write("<option value=''> Select experiment");
+				document.write("<option value='"+ex_array[i]+"'>" + translate(ex_array[i]));
+			}
+			else
+			{
+				document.write("<option value='" + ex_array[i] + "'>" + translate(ex_array[i]));
+			}		
+		}
+		
+		document.write("</select><BR><BR><input type='button' value='Distribution'  onClick='goToPage_1()'>");
+		
+	}
+	else
+	{
+		document.write("<font COLOR='#800040' SIZE='4'><b>This trait was measured only in this experiment</b></font><BR><BR>");
+		
+	
+	}
+	document.write("<br><BR><HR><BR>");
+
+	 	
+}
+else
+{
+	document.write("<font COLOR='#0000FF' SIZE='5'><b>Click here to close this window and back to the previous page :");
+	document.write("</b></font><BR><BR>");
+
+	document.write("<input type='button' value='Close window' onClick='self.close()'><br><BR><BR><HR>");
+}
+
+//-->
+</script>
+
+
+
+
+
+<font COLOR="#0000FF" SIZE="5"><b>Back to :</b></font><BR><BR>
+
+
+<input type="button" value="Front page"  onClick="goToPage(1);">
+
+
+
+</form>
+</td>
+
+<td >
+
+ 
+
+
+<script language="javascript">
+<!--// 
+	var f_ex = f_translate_ex(experiment);
+	var f_tr  = f_translate_tr(trait);
+	
+	var path = "../Pictures/Freq/" + f_ex + "/" + f_tr + ".jpg";
+	//document.write("path is " + path);
+	
+	document.write("<img src='" + path +  "' border='0' >");
+
+//-->
+</script>
+
+<a href="../Statistics/frequency.htm?page_type=1" target="_blanc"><b>Figure description</b></a>
+
+</td>
+
+
+</tr>
+</table>
+</body>
+</html>

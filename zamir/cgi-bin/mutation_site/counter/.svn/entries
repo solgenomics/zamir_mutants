@@ -1,0 +1,41 @@
+9
+
+dir
+13859
+svn+ssh://svn.sgn.cornell.edu/data/svn/cxgn/branches/apache2-rob/mantle/zamir/cgi-bin/mutation_site/counter
+svn+ssh://svn.sgn.cornell.edu/data/svn/cxgn
+
+
+
+2007-05-31T19:31:31.211569Z
+9536
+naama
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b4ddb4e3-33f1-0310-aa89-e703427ae9b8
+
+counter.cgi
+file
+
+
+
+
+2009-03-19T15:21:23.000000Z
+01966853e14a884d2699e5ec1affb47c
+2007-05-31T19:31:31.211569Z
+9536
+naama
+has-props
+

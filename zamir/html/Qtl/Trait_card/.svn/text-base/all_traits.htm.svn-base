@@ -1,0 +1,337 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1255">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./traits%20definitions_files/filelist.xml">
+<title>PW – Plant Weight : fresh weight of plant canopy</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Dani Zamir</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Naama</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>152</o:TotalTime>
+  <o:Created>2003-04-06T16:25:00Z</o:Created>
+  <o:LastSaved>2003-04-06T16:25:00Z</o:LastSaved>
+  <o:Pages>2</o:Pages>
+  <o:Words>330</o:Words>
+  <o:Characters>1886</o:Characters>
+  <o:Lines>15</o:Lines>
+  <o:Paragraphs>3</o:Paragraphs>
+  <o:CharactersWithSpaces>2316</o:CharactersWithSpaces>
+  <o:Version>9.2720</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>
+  <w:UseMarginsForDrawingGridOrigin/>
+  <w:Compatibility>
+   <w:FootnoteLayoutLikeWW8/>
+   <w:ShapeLayoutLikeWW8/>
+   <w:AlignTablesRowByRow/>
+   <w:ForgetLastTabAlignment/>
+   <w:LayoutRawTableWidth/>
+   <w:LayoutTableRowsApart/>
+  </w:Compatibility>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Times;
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-alt:"Times New Roman";
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:GCFrutiger-Light;
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-alt:"Times New Roman";
+	mso-font-charset:77;
+	mso-generic-font-family:auto;
+	mso-font-format:other;
+	mso-font-pitch:auto;
+	mso-font-signature:50331648 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Times;
+	mso-fareast-font-family:Times;
+	mso-bidi-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:150%;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:12.0pt;
+	font-family:Times;
+	mso-font-kerning:0pt;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	font-size:14.0pt;
+	font-family:Times;
+	mso-fareast-font-family:Times;
+	mso-bidi-font-family:"Times New Roman";
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	text-decoration:underline;
+	text-underline:single;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050">
+  <o:colormenu v:ext="edit" fillcolor="#36f"/>
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US style='tab-interval:36.0pt'>
+
+<div class=Section1>
+
+<p class=MsoTitle>All phenotypes that were measured over the different
+experiments</p>
+
+<p class=MsoNormal><b><u><span style='font-size:14.0pt;mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></u></b></p>
+
+<p class=MsoNormal><b><u><span style='font-size:14.0pt;mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>Yield related traits :<o:p></o:p></span></u></b></p>
+
+<p class=MsoNormal><u><span style='mso-bidi-font-family:Times;mso-fareast-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></u></p>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>PW</span></u></b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'> – Plant Weight : fresh weight of plant
+canopy. Presented as Kg per M<sup>2</sup>.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>TY</span></u></b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'> – Total Yield : total fruit yield<span
+style="mso-spacerun: yes">&nbsp; </span>measured for each plant or plot.
+Presented as Kg per M<sup>2</sup>.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>BM</span></u></b><u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'> </span></u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>– Biomass : Total biomass. Calculated as
+TY+PW. Presented as Kg per M<sup>2</sup>.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>BX</span></u></b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'> – Brix (TSS) : Total Soluble solids.
+Measured on sample from 10 fruits per plant/plot. Presented as precentage.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>BX*Y</span></u></b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'> – Brix*Total yield : Presented per M<sup>2</sup>.
+To obtain the value in g/ M<sup>2</sup> multiply by ten.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>HI</span></u></b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'> – Harvest Index : calculated<span
+style="mso-spacerun: yes">&nbsp; </span>as </span><span style='font-size:11.0pt;
+mso-bidi-font-family:Times;mso-fareast-language:EN-US'>[ </span><span
+style='mso-bidi-font-family:Times;mso-fareast-language:EN-US'>TY/(TY+PW) ]*100.
+Presented as precentage.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>%RED</span></u></b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'> – percent red yield : calculated as the
+percent of red fruit yield from total fruit yield (red &amp; green).<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span style='font-size:14.0pt;
+mso-bidi-font-family:Times;mso-fareast-language:EN-US'>Fruit morphology :<o:p></o:p></span></u></b></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>FW</span></u></b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'> – Fruit Weight : average fruit weight as
+measured from a random sample of 20 fruits per plant/plot. Presented as g per
+fruit.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>LEN</span></u></b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'> – average fruit length. Measured<span
+style="mso-spacerun: yes">&nbsp; </span>on three fruits per plant. Presented in
+mm, except for data from 2000-faculty, where<span style="mso-spacerun:
+yes">&nbsp; </span>measurements were taken on fruit scans and units are
+arbitrary.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>WID </span></u></b><b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>– </span></b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>average fruit width. Measured<span
+style="mso-spacerun: yes">&nbsp; </span>on three fruits per plant. Presented in
+mm, except for data from 2000-faculty, where<span style="mso-spacerun:
+yes">&nbsp; </span>measurements were taken on fruit scans and units are
+arbitrary. <b><o:p></o:p></b></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>LEN/WID</span></u></b><b><span
+style='mso-bidi-font-family:Times;mso-fareast-language:EN-US'> – </span></b><span
+style='mso-bidi-font-family:Times;mso-fareast-language:EN-US'>fruit length divided
+by fruit width<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>PER</span></u></b><b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'> – </span></b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>pericarp thickness. Measured<span
+style="mso-spacerun: yes">&nbsp; </span>on three fruits per plant. Measurement
+was taken at the widest spot on one locule per fruit. Presented in mm, except
+for data from 2000-faculty, where<span style="mso-spacerun: yes">&nbsp;
+</span>measurements were taken on fruit scans and units are arbitrary. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>SW</span></u></b><b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'> </span></b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>– seed weight. Average<span
+style="mso-spacerun: yes">&nbsp; </span>seed weight<span style="mso-spacerun:
+yes">&nbsp; </span>from a 50 seeds sample, that were extracted from five fruits
+of a single plant. Presented as weight (g) of 1000 seeds.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>IC</span></u></b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'> - Internal fruit color : measured as
+subjective ratings<span style="mso-spacerun: yes">&nbsp; </span>for the
+intensity of the color. Range is from 1 to 5 where<span style="mso-spacerun:
+yes">&nbsp; </span>1 is light color<span style="mso-spacerun: yes">&nbsp;
+</span>and 5 is dark.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>EC</span></u></b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'> – External fruit color : measured as
+subjective ratings<span style="mso-spacerun: yes">&nbsp; </span>for the
+intensity of the color. Range is from 1 to 5 where<span style="mso-spacerun:
+yes">&nbsp; </span>1 is light color<span style="mso-spacerun: yes">&nbsp;
+</span>and 5 is dark.<b><o:p></o:p></b></span></p>
+
+<h1><u><span style='mso-bidi-font-family:Times;mso-fareast-language:EN-US'>L*</span></u><span
+style='mso-bidi-font-family:Times;mso-fareast-language:EN-US'> – </span><span
+style='font-family:GCFrutiger-Light;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:GCFrutiger-Light;mso-fareast-language:EN-US;font-weight:
+normal'>lightness</span><span style='mso-bidi-font-family:Times;mso-fareast-language:
+EN-US'><o:p></o:p></span></h1>
+
+<p class=MsoNormal><b><u><span style='mso-bidi-font-family:Times;mso-fareast-language:
+EN-US'>a*</span></u></b><b><span style='mso-bidi-font-family:Times;mso-fareast-language:
+EN-US'> - </span></b><span style='font-family:GCFrutiger-Light;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:GCFrutiger-Light;mso-fareast-language:
+EN-US'>chromaticity coordinates -green-to-red scale,<o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span style='mso-bidi-font-family:Times;mso-fareast-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b><u><span style='mso-bidi-font-family:Times;mso-fareast-language:
+EN-US'>b*</span></u></b><b><span style='mso-bidi-font-family:Times;mso-fareast-language:
+EN-US'> - </span></b><span style='font-family:GCFrutiger-Light;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:GCFrutiger-Light;mso-fareast-language:
+EN-US'>chromaticity coordinates -green-to-red scale,<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></u></b></p>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>fruit biochemistry<o:p></o:p></span></u></b></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>CAR </span></u></b><b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>– </span></b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>carotene<span style="mso-spacerun:
+yes">&nbsp; </span>content in the fruit. Units are </span><span
+style='font-family:Symbol;mso-ascii-font-family:Times;mso-hansi-font-family:
+Times;mso-char-type:symbol;mso-symbol-font-family:Symbol'><span
+style='mso-char-type:symbol;mso-symbol-font-family:Symbol'>m</span></span><span
+style='mso-bidi-font-family:Times;mso-fareast-language:EN-US'>g/g fruit<b><o:p></o:p></b></span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>LYC </span></u></b><b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'>–</span></b><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'> lycopene content in the fruit. Units are </span><span
+style='font-family:Symbol;mso-ascii-font-family:Times;mso-hansi-font-family:
+Times;mso-char-type:symbol;mso-symbol-font-family:Symbol'><span
+style='mso-char-type:symbol;mso-symbol-font-family:Symbol'>m</span></span><span
+style='mso-bidi-font-family:Times;mso-fareast-language:EN-US'>g/g fruit<b><o:p></o:p></b></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:150%'><span style='mso-bidi-font-family:
+Times;mso-fareast-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

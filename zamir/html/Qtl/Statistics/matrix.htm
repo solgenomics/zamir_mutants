@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>Scaterplot matrix</title>
+
+<script type="text/javascript">
+<!--
+var page_type = 0;
+
+var array =  /page_type=(\d)/g.exec(location);
+
+if (array && array.length > 1) 
+	 page_type = array[1];
+
+	 
+function goToPage()
+{
+   location = "Qtl/Html/home.htm";
+
+}	 
+	 
+// -->
+</script>
+
+</head>
+<body bgcolor="#FFFFCC">
+
+<center><font color="#0000ff" size="7"><b><i>Scaterplot matrix</i></b></font></center><br><br>
+
+<script type="text/javascript">
+<!--
+if (page_type == 0)
+{
+ 	 document.write("<input type='button' value='Front page' onClick='goToPage()' />");
+	 document.write("<br><br>");
+}
+else
+{
+ 	 document.write("<input type='button' value='Close window' onClick='self.close()' />");
+	 document.write("<br><br>");
+}
+// -->
+</script>
+ 
+<font size="5">Presentation of correlations between all pairs of traits in a matrix order.  
+Each square represents a single correlation. Narrow ellipses indicate high correlations.
+<br><br>
+
+<center><img src="../General/matrix.jpg" /></center>
+
+</font>
+
+
+
+
+</body>
+</html>

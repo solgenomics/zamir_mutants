@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Mutant screening</title>
+</head>
+
+<body>
+<TABLE width=100% CELLSPACING="50" cellpading="10" BORDER="0">
+<TR>
+	<TD valign="top"><script type="text/javascript" src="../menu.js"></script></TD>
+	<TD><FONT color= "#990033"><H2>Phenotyping platforms</H2></FONT>
+		<FONT SIZE="+1">
+		Phenotyping is the rate-limiting step in such large-scale mutagenesis studies.
+		Our approach is to develop a stepwise protocol for extensive phenotypic analysis
+		aimed at capturing data and images describing the entire life cycle of the plants.
+		The first phenotypic screen is conducted in M2 generation and is based on visual
+		characterization of the plants at all developmental stages from the nursery until
+		fruit maturation in the field.<BR>
+		It should be noted that this screen in family structure allows to isolate not only
+		variation of major effects but also minor 'QTL like' mutations.
+		<BR>
+		<BR>
+		Verification of a monogenic mutation, as described in M2, and a detailed quantitative
+		phenotyping, is conducted in M3 generation.<BR>
+		The detailed phenotyping is conducted in the field for analyzing morphological
+		variation as well as yield-associated traits.<BR><BR>
+		<HR>
+		<A NAME="catalog">
+		We built a detailed phenotypic catalog with 15 major categories and 48 sub categories.
+		Phenotypic mutations can be <a href = "/cgi-bin/mutation_site/mutant04_search.cgi">searched</a>
+		by selecting one category or a combination of traits</A></FONT>
+		<br>
+		<h3></h3>
+		<LI>Seed/early seedling mutation</LI>
+		<LI>Plant size</LI>
+		<LI>Plant habit</LI>
+		<LI>Leaf morphology</LI>
+		<LI>Leaf color</LI>
+		<LI>flowering timming</LI>
+		<LI>Inflorescence structure</LI>
+		<LI>Flower morphology</LI>
+		<LI>Flower color</LI>
+		<LI>Fruit size</LI>
+		<LI>Fruit morphology</LI>
+		<LI>Fruit color</LI>
+		<LI>Fruit ripening</LI>
+		<LI>Sterility: any condition leading to partial or complete unfruitfulness</LI>
+		<LI>Disease and stress response</LI>
+
+	</TD>
+</TR>
+</TABLE>
+
+</body>
+</html>

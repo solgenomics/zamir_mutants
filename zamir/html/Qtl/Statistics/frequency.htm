@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>Frequency distribution</title>
+
+<script type="text/javascript">
+<!--
+var page_type = 0;
+
+var array =  /page_type=(\d)/g.exec(location);
+
+if (array && array.length > 1) 
+	 page_type = array[1];
+
+	 
+function goToPage()
+{
+   location = "Qtl/Html/home.htm";
+
+}	 
+	 
+// -->
+</script>
+
+</head>
+<body bgcolor="#FFFFCC">
+
+<center><font color="#0000ff" size="7"><b><i>Frequency distribution </i></b></font></center><br><br>
+
+<script type="text/javascript">
+<!--
+if (page_type == 0)
+{
+ 	 document.write("<input type='button' value='Front page' onClick='goToPage()' />");
+	 document.write("<br><br>");
+}
+else
+{
+ 	 document.write("<input type='button' value='Close window' onClick='self.close()' />");
+	 document.write("<br><br>");
+}
+// -->
+</script>
+ 
+<font size="5">Presentation of the frequency distribution for a selected trait. 
+X axis is the phenotypic values (presented as percent from M82) and the Y axis is the frequency 
+(presented as the number of lines on a given phenotypic level).
+</font>
+
+<br><br>
+
+<font size="5"><b>IL</b> = Introgression line<br>  <b>ILH</b> = Introgression Line Hybrid (IL*M82)</font>
+
+
+<br><br>
+
+<img src="../General/freq.jpg"  /><br><br>
+<img src="../General/moments.jpg"  /><br><br>
+
+
+
+
+
+</body>
+</html>

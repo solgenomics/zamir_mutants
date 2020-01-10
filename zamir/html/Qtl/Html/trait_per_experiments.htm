@@ -1,0 +1,220 @@
+ <html>
+<head>
+
+<script language="javascript" SRC = "functions.js">
+<!--// 
+	document.write("can not find functions");
+//-->
+</script>
+
+<script language="javascript">
+<!--// 
+
+var st = location;
+var page_type;
+var trait;
+var experiment;
+var ex;
+var tr;
+var ch;
+var il;
+var ex_array;
+
+array = get_param(st, 4);
+
+page_type = array[0];
+tr  = array[1];
+ex = array[2];
+ch = array[3];
+il  = array[4];
+trait = translate(tr);
+experiment  = translate(ex);
+
+
+if (il.search("IL7-5-5") != -1  ||  il.search("IL9-3-1") != -1)
+{
+ 	 if (tr.search("External_Color") != -1  ||  tr.search("Internal_Color") != -1)
+	 {
+	 		location = "error_page.htm?page_type=3&tr="+tr+"&ex="+ex+"&ch="+ch+"&il="+il;
+	 }	
+}
+
+
+function goToPage_2(t)
+{
+ 	
+	var index = document.form1.s2.selectedIndex;
+	var tr_1 = document.form1.s2[index].value;
+	
+	if (!tr_1)
+	{
+	   alert("You must select trait");
+		 return;
+	}
+	
+	location = "trait_per_experiments.htm?page_type=2&tr=" + tr_1 + "&ex=" + ex + "&ch="+ch+"&il="+il;
+	
+}
+
+
+
+function goToPage(t)
+{
+	var type = t;
+	
+	if (type == 0)
+	{
+		location = "experiment_per_trait.htm?page_type="+page_type+"&tr="+tr+"&ex="+ex+"&ch="+ch+"&il="+il;
+	}
+	if (type == 1)
+	{
+		location = "ch_all_lines_1.htm?page_type="+page_type+"&tr="+tr+"&ex="+ex+"&ch="+ch;
+	}
+	if (type == 2)
+	{
+		location = "home.htm";
+	}
+	if (type == 3)
+	{
+	location = "tail_chart.htm?page_type="+page_type+"&tr="+tr+"&ex="+ex;
+	}
+	
+}
+
+
+
+//-->
+</script>
+</head>
+
+<body bgColor="#ffffcc">
+
+<h1><font COLOR="#800040" SIZE="6"><center>
+<script language="javascript">
+<!--// 
+var file = "../Trait_card/" + f_translate_tr(trait) + ".htm";		
+document.write("<a href='"+file+"' target='_blanc'><font COLOR='#0000FF' SIZE='6'>"+trait+"</font></a>");
+//-->
+</script>
+for
+
+<script language="javascript">
+<!--// 
+document.write("<A HREF='http://zamir.sgn.cornell.edu/cgi-bin/IL_cards/qtl.cgi?menu=il_card&il="+il+"'target='_blanc'><font COLOR='#0000FF' SIZE='6'>" + il + "</font><\/A>");
+//-->
+</script>
+<font COLOR="#800040" SIZE="6">in all the experiments</font>
+
+</center></font></h1>
+<BR>
+
+<center><table>
+<tr>
+
+
+
+
+<!-- <td  bgColor="#E7B818" valign = "top" height = "20"> -->
+
+<script language="javascript">
+<!--// 
+	document.write("<td bgColor='" + get_color() + "' valign = 'top' >");
+//-->
+</script>
+
+<form name="form1" method="post" action="" enctype="text/plain">
+
+
+<script language="javascript">
+<!--// 
+
+var length, l, a, i;
+
+if (ex.search("undef") == -1)
+{
+	 ex_array   = all_traits();
+	 ex_array   = del_ex(ex_array, tr);
+	 length = ex_array.length;
+	 document.write("<font COLOR='#0000FF' SIZE='5'><b>View other trait for this IL :</b></font><BR><BR>");
+}
+else
+{
+ 	 length = 0;	
+}	
+
+ 		for (i=0; i<length; i++)
+		{
+		 
+		 	a = get_ex_by_tr(ex_array[i], 1);
+			
+		  if (a.length > 1)
+			{
+			 	 if (i == 0)
+				 {
+				 		document.write("<select name='s2'>");
+						document.write("<option value=''>Select trait");
+						document.write("<option value='"+ex_array[i]+"'>" + translate(ex_array[i]));
+				 }
+				 else
+				 {
+				 	document.write("<option value='" + ex_array[i] + "'>" + translate(ex_array[i]));
+				 }
+			 }				
+		}
+	
+	if (length > 0)
+	{	
+		document.write("</select><input type='button' value='Other trait' onClick='goToPage_2()'>");
+		document.write("<BR><br><hr>");
+	}
+
+	 	
+
+	document.write("<br><font COLOR='#0000FF' SIZE='5'><b>Click here to close this window:");
+	document.write("</b></font><BR><BR>");
+
+	document.write("<input type='button' value='Close window' onClick='self.close()'><br>");
+
+
+//-->
+</script>
+
+
+
+<BR><HR><BR>
+
+
+
+<BR>
+
+
+
+</form>
+</td>
+
+<td>
+
+<!-- <img src="../../for yaniv&naama/QTL site-9203/experiment_per_trait.jpeg"  border="" alt="one trait in all the experiments" > -->
+
+<script language="javascript">
+<!--// 
+	
+	var f_tr  = f_translate_tr(trait);
+	var path = "../Pictures/IL_all_experiments/" + f_tr + "/" + il + ".gif";
+	//document.write("path is "+path);
+	
+	document.write("<img src='" + path +  "' border='0'>");
+
+//-->
+</script>
+
+</td>
+
+
+</tr>
+
+
+</table></center>
+
+</body>
+</html>

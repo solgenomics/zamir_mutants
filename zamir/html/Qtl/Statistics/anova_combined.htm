@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>Anova</title>
+
+<script type="text/javascript">
+<!--
+var page_type = 0;
+
+var array =  /page_type=(\d)/g.exec(location);
+
+if (array && array.length > 1) 
+	 page_type = array[1];
+
+	 
+function goToPage()
+{
+   location = "Qtl/Html/home.htm";
+
+}	 
+	 
+// -->
+</script>
+
+</head>
+<body bgcolor="#FFFFCC">
+
+<center><font color="#0000ff" size="7"><b><i>Trait by chromosome chart</i></b></font></center><br><br>
+
+<script type="text/javascript">
+<!--
+if (page_type == 0)
+{
+ 	 document.write("<input type='button' value='Front page' onClick='goToPage()' />");
+	 document.write("<br><br>");
+}
+else
+{
+ 	 document.write("<input type='button' value='Close window' onClick='self.close()' />");
+	 document.write("<br><br>");
+}
+// -->
+</script>
+ 
+<font size="5"><b>Means, Anova and compare with control (Dunnet) analysis for chromosome 2 ILs and ILHs. </b></font>
+
+<br><br>
+
+<img src="../General/diamonds_combined.jpg"  /><br><br>
+
+<font size="5">
+All lines on the chromosome are compared to the common control  (represented by the 0 line), using Dunnet test under significance level of 5%.
+<ul>
+<li><font color="#c90527">Common control is colored in dark red (M82).</font></li>
+<li><font color="#ff0000">Lines that are not significantly different from the control are are colored in red.</font></li>
+<li><b>Lines that are significantly different from the control are colored in black.</b></li>
+</ul>
+</font>
+
+
+
+</body>
+</html>

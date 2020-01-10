@@ -1,0 +1,183 @@
+9
+
+dir
+13859
+svn+ssh://svn.sgn.cornell.edu/data/svn/cxgn/branches/apache2-rob/mantle/zamir/html/Qtl
+svn+ssh://svn.sgn.cornell.edu/data/svn/cxgn
+
+
+
+2006-06-28T13:48:34.101434Z
+2827
+naama
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b4ddb4e3-33f1-0310-aa89-e703427ae9b8
+
+all_traits.htm
+file
+
+
+
+
+2009-03-19T15:16:26.000000Z
+18c7eb0861671a31606d042c7e6803ac
+2005-09-13T18:09:23.150798Z
+1979
+rob
+
+m82_card.htm
+file
+
+
+
+
+2009-03-19T15:16:26.000000Z
+aa9618486247f1576bbb30cd89c5a955
+2006-06-28T13:48:34.101434Z
+2827
+naama
+
+global.htm
+file
+
+
+
+
+2009-03-19T15:16:26.000000Z
+edcd9517f0f69bbb78a40ae130f8587b
+2005-09-13T18:09:23.150798Z
+1979
+rob
+
+Statistics
+dir
+
+il_story.htm
+file
+
+
+
+
+2009-03-19T15:16:26.000000Z
+e43c224af4dc2e8f6153dc77c90e98dc
+2005-09-13T18:09:23.150798Z
+1979
+rob
+
+Pictures
+dir
+
+Wild
+dir
+
+Sequence.htm
+file
+
+
+
+
+2009-03-19T15:16:26.000000Z
+51da9c11d6f38c25e3be70d9972cd9c8
+2005-09-13T18:09:23.150798Z
+1979
+rob
+
+experiment_card.htm
+file
+
+
+
+
+2009-03-19T15:16:26.000000Z
+64aa7b58fb519d248046329a7e968bc1
+2005-09-13T18:09:23.150798Z
+1979
+rob
+
+Experiments
+dir
+
+Html
+dir
+
+combined.htm
+file
+
+
+
+
+2009-03-19T15:16:26.000000Z
+c72c0f27f40c6e62d7e7c080d21f52d1
+2005-09-13T18:09:23.150798Z
+1979
+rob
+
+labs.htm
+file
+
+
+
+
+2009-03-19T15:16:26.000000Z
+1a5b38ebb00607dff46a9a636cb11433
+2005-09-13T18:09:23.150798Z
+1979
+rob
+
+RTQ_story.doc
+file
+
+
+
+
+2009-03-19T15:16:26.000000Z
+252ffbd2f5996030a8f09948506798e5
+2005-09-13T18:09:23.150798Z
+1979
+rob
+has-props
+
+Trait_card
+dir
+
+RTQ_Demo.ppt
+file
+
+
+
+
+2009-03-19T15:16:26.000000Z
+37d1a5c6a691b92683925b2fb69ecb9a
+2005-09-13T18:09:23.150798Z
+1979
+rob
+has-props
+
+General
+dir
+
+RTQ_story.pdf
+file
+
+
+
+
+2009-03-19T15:16:26.000000Z
+0743d3c303fe678f17b430f523d41690
+2005-09-13T18:09:23.150798Z
+1979
+rob
+

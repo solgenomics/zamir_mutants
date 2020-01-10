@@ -1,0 +1,10 @@
+  H4 {font-family: veranda, arial, sans-serif; font-size: 110%;}
+  BODY { background-color: white; font-family: veranda, arial, sans-serif; font-size: 12px; line-height: 13px;}
+  TABLE { font-family: veranda, arial, sans-serif; font-size: 12px; line-height: 13px}
+
+  .fix {letter-spacing: 0px; font-family: monospace; font-size: 12px; line-height: 13px;}
+  TABLE.fix {letter-spacing: 0px; font-family: lycidatypewriter, monospace; font-size: 12px; line-height: 13px;}
+  TABLE.nor {letter-spacing: 0px; font-family: veranda, arial, sans-serif; font-size: 12px; line-height: 13px;}
+  SELECT {background: #EEEEFF;}
+  TEXTAREA {background: #EEEEFF; }
+  pre { font-family : monospace; font-size: 12px; line-height: 13px }

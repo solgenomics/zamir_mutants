@@ -1,0 +1,41 @@
+9
+
+dir
+13859
+svn+ssh://svn.sgn.cornell.edu/data/svn/cxgn/branches/apache2-rob/mantle/zamir/cgi-bin/tools
+svn+ssh://svn.sgn.cornell.edu/data/svn/cxgn
+
+
+
+2006-08-02T18:46:16.487238Z
+6918
+john
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b4ddb4e3-33f1-0310-aa89-e703427ae9b8
+
+http_error_handler.pl
+file
+
+
+
+
+2009-03-19T15:21:23.000000Z
+248cf1806a58cdf3e87444c20ed2adc0
+2006-08-02T18:46:16.487238Z
+6918
+john
+has-props
+

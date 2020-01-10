@@ -1,0 +1,47 @@
+<HTML>
+<HEAD>
+<TITLE> Mutants </TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF">
+<center>
+
+<!-- navbar include in -->
+<!-- INSERT HEADER FILE HERE -->
+<!-- navbar include out -->
+
+
+<!-- ********************************** body table in -->
+<table width=720 cellpadding=0 cellspacing=0 border=0>
+<tr><td>
+<ul>
+<li><p><a href="http://tgrc.ucdavis.edu/backg.htm">Tomato Genetics Resource Center</a>:
+  <ul>
+    <li>The C.M. Rick Tomato Genetics Resource Center (TGRC) is a genebank of wild relatives, monogenic mutants and miscellaneous genetic stocks of tomato. The wild species group includes representatives of all nine Lycopersicon species, as well as 4 related Solanum species. The monogenic mutants include spontaneous and induced mutations affecting many aspects of plant development, introgressed disease resistance genes, and protein marker stocks.
+  </ul>
+<li><p><a href="/mutants/mutants_web/">Tomato monogenic mutants</a>:
+  <ul>
+    <li>"The Genes That Make Tomatoes." This database is hosted by SGN in collaboration with the Zamir Lab at the Hebrew University of Jerusalem. 
+All data was collected from a mutagenesis project, in which over 
+100,000 m2 plants were screened in the field for mutant phenotypes 
+at defined developmental stages (summer 2001 and 2002). 
+In the web site there is a description of the project and the mutant 
+population as well as a new search engine. The collection of 3000 
+monogenic mutants is amenable for searching 
+according to a detailed phenotypic catalog and combinations of traits.
+  </ul>
+</ul>
+
+</td></tr>
+</table>
+
+
+<!-- begin footer include -->
+<!-- INSERT FOOTER FILE HERE -->
+<!-- end footer include -->
+
+
+</center>
+
+</BODY>
+</HTML>

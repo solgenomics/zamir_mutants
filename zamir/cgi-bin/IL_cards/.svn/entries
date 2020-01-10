@@ -1,0 +1,56 @@
+9
+
+dir
+13859
+svn+ssh://svn.sgn.cornell.edu/data/svn/cxgn/branches/apache2-rob/mantle/zamir/cgi-bin/IL_cards
+svn+ssh://svn.sgn.cornell.edu/data/svn/cxgn
+
+
+
+2007-07-02T15:20:37.853052Z
+9717
+naama
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b4ddb4e3-33f1-0310-aa89-e703427ae9b8
+
+qtl.cgi
+file
+
+
+
+
+2009-03-19T15:21:23.000000Z
+05d00318ff236695aa9e4e8e9c035550
+2007-07-02T15:20:37.853052Z
+9717
+naama
+has-props
+
+DB_files
+dir
+
+db_link.pm
+file
+
+
+
+
+2009-03-19T15:21:23.000000Z
+5d35169102360004714ea064539f6abe
+2005-09-13T18:09:23.150798Z
+1979
+rob
+
